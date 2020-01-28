@@ -16,3 +16,14 @@ document.addEventListener('scroll',(e)=>{
             document.getElementById('mouse-icon').classList.toggle('mouse-hide');},4000)
     }
 })
+
+// timeline 
+document.getElementById('14th').addEventListener('click',() =>{
+    document.getElementById('14th list').classList.remove('hidden');
+    document.getElementById('15th list').classList.add('hidden');
+});
+
+document.getElementById('15th').addEventListener('click',() =>{
+    document.getElementById('15th list').classList.remove('hidden');
+    document.getElementById('14th list').classList.add('hidden');
+});

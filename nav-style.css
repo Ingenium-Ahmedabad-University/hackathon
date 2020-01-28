@@ -71,6 +71,8 @@ nav {
 @media screen and (max-width:1000px) {
     body {
         overflow-x: hidden;
+        padding:0;
+        margin:0;
     }
     .nav-list {
         border: none;
@@ -96,6 +98,9 @@ nav {
         display: block;
         right:20px;
         top:20px;
+    }
+    #mouse-icon{
+        display:hidden !important;
     }
 }
 
@@ -149,10 +154,11 @@ nav {
 #mouse-icon::after{
     position:absolute;
     top:30px;
+    left: calc(50% - 10px);
     width:20px;
     height:40px;
     content:'';
-    background-color: rgb(92, 28, 92)
+    background-color: rgb(92, 28, 92);
     border-radius: 10px;
 
     animation: mouse 2s infinite;
@@ -166,4 +172,8 @@ nav {
         top:100px;
         opacity:0;
     }
+}
+
+nav{
+    display: none;
 }

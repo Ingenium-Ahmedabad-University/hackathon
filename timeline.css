@@ -56,6 +56,8 @@
     display:inline;
 }
 .timeline .schedule-list{
+    padding-top: 5em;
+    padding-bottom: 5em;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -73,7 +75,7 @@
     top:0;
     right:-20px;
     width:5px;
-    height:170%;;
+    height:190%;;
     content: '';
     background-color:rgb(212, 209, 209);
 }
@@ -95,7 +97,7 @@
     top:0;
     left:-25px;
     width:5px;
-    height:170%;;
+    height:190%;;
     content: '';
     background-color: rgb(212, 209, 209);
 }
@@ -107,4 +109,8 @@
 .timeline .schedule-list .list-element .text{
     font-size:120%;
     color:var(--text-col);
+}
+
+.hidden{
+    display:none;
 }
