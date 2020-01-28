@@ -78,7 +78,7 @@ nav {
         right: 0px;
         height: 92vh;
         top: calc(8vh - 3px);
-        background-color: rgb(211, 147, 248);
+        background-color:  rgb(92, 28, 92);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -134,7 +134,7 @@ nav {
     left:calc(50% - 100px);
     height:200px;
     width:100px;
-    border: 2px solid rebeccapurple ;
+    border: 2px solid  rgb(92, 28, 92) ;
     border-radius: 50px;
     transform:scale(0.4);
     opacity:0.7;
@@ -152,8 +152,7 @@ nav {
     width:20px;
     height:40px;
     content:'';
-    background-color: rebeccapurple;
-    left:calc(50% - 10px);
+    background-color: rgb(92, 28, 92)
     border-radius: 10px;
 
     animation: mouse 2s infinite;
