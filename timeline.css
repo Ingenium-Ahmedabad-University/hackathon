@@ -1,0 +1,110 @@
+.timeline{
+    --title-col:rgb(72, 78, 74);
+    --text-col:#1A281F;
+    --btn-col:#FE654F;
+}
+.timeline .content{
+    padding-left:10%;
+    padding-top:20%;
+    padding-bottom:5%;
+    width:80%;
+    font-family: 'Montserrat', sans-serif;
+    color:var(--text-col);
+    display:block;
+}
+.timeline .title {
+    text-align: center;
+    color: var(--title-col);
+    font-size: 300%;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+}
+.timeline .date-links{
+    position: relative;
+    left:(50% - 500px);
+    display:flex;
+    justify-content: center;
+}
+.timeline .date-links button{
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    border:2px solid  var(--btn-col);
+    padding: 1rem 1rem;
+    width:200px;
+    margin: 10px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: var(--btn-col);
+    color:whitesmoke;
+
+}
+.timeline .date-links button:hover{
+    background-color: transparent;
+    color:var(--btn-col);
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 0.5s;
+}
+.timeline .date-links button sup{
+    display:inline;
+}
+.timeline .schedule-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width:80%;
+    position: relative;
+    left:10%;
+}
+.timeline .schedule-list .list-element.left {
+    position: relative;
+    right:calc(50% + 20px);
+    text-align:right;
+}
+.timeline .schedule-list .list-element.left::after {
+    position:absolute;
+    top:0;
+    right:-20px;
+    width:5px;
+    height:170%;;
+    content: '';
+    background-color:rgb(212, 209, 209);
+}
+.timeline .schedule-list .list-element.right {
+    position: relative;
+    left:calc(50% + 20px);
+    text-align:left;
+}
+.timeline .schedule-list .list-element.right:hover::before {
+    background-color: var(--btn-col);
+    transition: all 0.3s ease-in;
+}
+.timeline .schedule-list .list-element.left:hover::after {
+    background-color: var(--btn-col);
+    transition: all 0.3s ease-in;
+}
+.timeline .schedule-list .list-element.right::before {
+    position:absolute;
+    top:0;
+    left:-25px;
+    width:5px;
+    height:170%;;
+    content: '';
+    background-color: rgb(212, 209, 209);
+}
+
+.timeline .schedule-list .list-element .time{
+    color:var(--btn-col);
+}
+
+.timeline .schedule-list .list-element .text{
+    font-size:120%;
+    color:var(--text-col);
+}

@@ -1,0 +1,23 @@
+.sponsor{
+    --title-col:rgb(72, 78, 74);
+    --text-col:#1A281F;
+    --btn-col:#FE654F;
+    font-family: 'Montserrat', sans-serif;
+}
+.sponsor .content{
+    padding-left:10%;
+    padding-top:20%;
+    padding-bottom:5%;
+    width:80%;
+    
+    color:var(--text-col);
+    display:block;
+}
+.sponsor .title {
+    text-align: center;
+    color: var(--title-col);
+    font-size: 300%;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+}
