@@ -38,14 +38,13 @@
 
 .tracks .card {
     width: 25em;
-    height: 50vh;
     margin-top: 10vh;
     margin-left: 4em;
+    padding-bottom: 4em;
 }
 
 .tracks .card .img {
     border-radius: 5px;
-    height: 50%;
     width: 100%;
 }
 
