@@ -59,6 +59,7 @@
     padding-bottom: 5em;
 }
 .timeline .schedule-list .list-element.left {
+    overflow: visible;
     text-align:right;
 }
 .timeline .schedule-list .list-element.left::after {
@@ -71,7 +72,7 @@
     background-color:rgb(212, 209, 209);
 }
 .timeline .schedule-list .list-element.right {
-    
+    overflow: visible;
     text-align:left;
 }
 .timeline .schedule-list .list-element.right:hover::before {
