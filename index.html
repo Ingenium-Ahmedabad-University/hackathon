@@ -10,6 +10,18 @@
     <link rel="stylesheet" href="./about-us.css">
     <link rel="stylesheet" href="./tracks.css">
     <link rel="stylesheet" href="./timeline.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./sponsor.css">
 
@@ -17,10 +29,15 @@
 
 <body>
     <nav>
-        <div class="logo">
-            <h4>The Nav</h4>
-        </div>
-        <ul class="nav-list">
+        <div class="menu"><i class="material-icons" id="menu-icon">
+            apps
+            </i>
+            
+             </div>
+        <ul class="nav-hide" id="nav-list"> 
+            <i class="material-icons" id="clear">
+                clear
+                </i>
             <li><a href="">About Us</a></li>
             <li><a href="">Tracks</a></li>
             <li><a href="">Timeline</a></li>
@@ -29,12 +46,7 @@
             <li><a href="">Contact Us</a></li>
 
         </ul>
-
-        <div class="burger"><i class="material-icons menu-icon">
-                menu
-            </i></div>
     </nav>
-    <div id="mouse-icon"></div>
 
     <section class="about-us">
         <div class="content">
@@ -109,43 +121,43 @@
             </div>
             <div class="schedule-list">
                 <div id="14th list">
-                    <p class="list-element left">
+                    <p class="list-element left col-6">
 
                         <span class="time">8:30 am</span>
                         <span class="text">Registrations and Breakfast</span>
 
                     </p>
-                    <p class="list-element right">
+                    <p class="list-element right offset-6 col-6">
 
                         <span class="time">9:30 am </span>
                         <span class="text"> Inauguration</span>
 
                     </p>
-                    <p class="list-element left">
+                    <p class="list-element left col-6">
 
                         <span class="time">10:30 am </span>
                         <span class="text">Hacking Starts</span>
 
                     </p>
-                    <p class="list-element right">
+                    <p class="list-element right offset-6 col-6">
 
                         <span class="time">1:00 pm</span>
                         <span class="text">Lunch along with networking</span>
 
                     </p>
-                    <p class="list-element left">
+                    <p class="list-element left col-6">
 
                         <span class="time">5:00 pm </span>
                         <span class="text">High Tea</span>
 
                     </p>
-                    <p class="list-element right">
+                    <p class="list-element right offset-6 col-6">
 
                         <span class="time">06:00 pm </span>
                         <span class="text">Discussing your ideas with the mentors</span>
 
                     </p>
-                    <p class="list-element left">
+                    <p class="list-element left col-6">
 
                         <span class="time">08:00 pm </span>
                         <span class="text">Dinner</span>
@@ -155,50 +167,50 @@
 
 
                 <div id="15th list" class="hidden">
-                    <p class="list-element left">
+                    <p class="list-element left col-6">
 
                         <span class="time">01:00 am</span>
                         <span class="text"> Fun Activities</span>
 
                     </p>
-                    <p class="list-element right">
+                    <p class="list-element right offset-6 col-6">
 
                         <span class="time">08:00 am</span>
                         <span class="text">Breakfast</span>
 
                     </p>
-                    <p class="list-element left">
+                    <p class="list-element left col-6">
 
                         <span class="time">08:30 am </span>
                         <span class="text">Discussing your final thoughts with mentors</span>
 
                     </p>
-                    <p class="list-element right">
+                    <p class="list-element right offset-6 col-6">
 
                         <span class="time">12:30 pm</span>
                         <span class="text">Lunch</span>
 
                     </p>
-                    <p class="list-element left">
+                    <p class="list-element left col-6">
 
                         <span class="time">03:00 pm </span>
                         <span class="text">Discussing your final outcome with mentors and judges</span>
 
                     </p>
-                    <p class="list-element right">
+                    <p class="list-element right offset-6 col-6">
 
                         <span class="time">06:00 pm </span>
                         <span class="text">Discussing your ideas with the mentors</span>
 
                     </p>
-                    <p class="list-element left">
+                    <p class="list-element left col-6">
 
                         <span class="time">05:00 pm </span>
                         <span class="text">Declaring TOP-6 teams and final presentations in the auditorium.
                         </span>
 
                     </p>
-                    <p class="list-element right">
+                    <p class="list-element right offset-6 col-6">
 
                         <span class="time">06:30 pm </span>
                         <span class="text">Final winner declaration and distribution of goodies</span>

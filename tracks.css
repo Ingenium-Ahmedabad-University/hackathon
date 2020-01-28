@@ -6,10 +6,10 @@
 }
 
 .tracks .content {
-    padding-left: 3%;
+    margin-left:0;
     padding-top: 20%;
     padding-bottom: 5%;
-    width: 90%;
+    width: 100%;
     font-family: 'Montserrat', sans-serif;
     color: var(--text-col);
     display: block;
@@ -37,9 +37,10 @@
 }
 
 .tracks .card {
-    width: 25em;
+    max-width: 24em;
+    margin-left:2em;
+    margin-right:2em;
     margin-top: 10vh;
-    margin-left: 4em;
     padding-bottom: 4em;
 }
 
