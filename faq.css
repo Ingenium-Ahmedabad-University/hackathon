@@ -18,3 +18,48 @@
     letter-spacing: 2px;
 
 }
+.faq .q{
+    padding-top:1em ;
+    padding-bottom: 1em;
+    color:var(--text-col);
+    font-size:110%;
+}
+.faq .a{
+    color:var(--title-col);
+}
+.faq .qas{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.faq .add{
+    display: inline;
+    height:30px;
+    width:30px;
+    border: none;
+    background: none;
+    margin: 10px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    right:2px;
+    top:0.5em;
+
+}
+.faq .add:hover{
+    background-color: rgb(236, 234, 234);
+    border-radius: 50%;
+}
+.hidden{
+    display: none;
+}
+.faq .a{
+    display:none;
+}
+.faq .a.active{
+    display:block;
+    transition: all 0.7s ease-in;
+}
