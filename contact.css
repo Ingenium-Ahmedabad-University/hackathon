@@ -1,0 +1,23 @@
+.contact{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.map-section{
+}
+.mapouter{
+
+    width:50%;
+    height:50%;
+}
+.gmap_canvas iframe{
+
+    width:50%;
+    height:50%;
+}
+@media screen and (min-width:800px){
+    .gmap_canvas iframe{
+
+        width:100%;
+        height:100%;
+    }   
+}
