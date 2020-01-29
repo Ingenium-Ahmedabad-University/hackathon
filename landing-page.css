@@ -1,0 +1,111 @@
+*{
+
+    --title-col:rgb(72, 78, 74);
+    --text-col:#1A281F;
+    --btn-col:#FE654F;
+    --col3:rgb(59, 19, 122);
+}
+.start{
+    display:inline-block;
+    height:auto;
+    overflow: visible;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 15%;
+}
+.date-item{
+    display: inline-block;
+    text-align: left;
+    padding: 5px;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 10px;
+    border:2px solid var(--btn-col);
+    color:var(--col3);
+    font-weight: 600;
+}
+.date span.th{
+    display: inline;
+    font-size: 60%;
+    font-weight: 600;
+    vertical-align: super;
+}
+.date-item .date{
+    font-size: 180%;
+    font-weight: 700;
+}
+.banner-title{
+    overflow: visible;
+    color:var(--col3) !important;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.banner-info{
+    color:var(--title-col);
+    font-size: 120%;
+}
+
+.counter-item {
+    display:inline-block;
+    background-color: rgba(255, 255, 255, 0.69);
+    
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+}
+.countdown .time {
+    font-family: 'Montserrat', sans-serif;
+    color:var(--btn-col);
+    font-size: 42px;
+    font-weight: 600;
+
+}
+
+.countdown .smalltext {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--title-col);
+    font-size: 14px;
+}
+.countdown{
+    display:inline-flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.start{
+    padding-left: 20%;
+}
+
+.lp-g{
+    z-index:-15;
+    width: 50vw;
+    height:auto;
+    min-width: 500px;
+    position: absolute;
+    right:4vw;
+    bottom:10vh;
+}
+@media screen and (max-width:550px){
+    .start{
+        padding-left:10vw;
+    }
+    .banner-title{
+        color:var(--col3);
+        font-size: 55px;
+        font-weight: 700;
+    }
+    .banner-info{
+        font-size: 90%;
+    }
+    .countdown .time {
+        font-size: 20px;
+    }
+    .lp-g{
+        width: 100vw;
+        min-width: 0;
+        height:auto;
+        position:static;
+        padding-left:4vw;
+    }
+    
+}

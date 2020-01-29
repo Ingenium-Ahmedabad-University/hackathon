@@ -42,3 +42,13 @@ for (let b of buttons){
         b.nextElementSibling.classList.toggle('active');
     })
 }
+
+//counter
+if ($('.countdown').length > 0) {
+    $(".countdown").jCounter({
+        date: '14 March 2020 000000',
+        fallback: function () {
+            console.log("count finished!")
+        }
+    });
+}

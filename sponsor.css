@@ -41,6 +41,9 @@
 .sponsors-logo .sponsor:hover{
     filter:none;
 }
+.sponsor-btn{
+    display:block !important;
+}
 .sponsor-btn .btn{
     color:whitesmoke;
     width:16rem;

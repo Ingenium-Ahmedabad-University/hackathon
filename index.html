@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="./tracks.css">
     <link rel="stylesheet" href="./timeline.css">
     <link rel="stylesheet" href="./faq.css">
-    <link rel="stylesheet" href="./map.css">
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="./landing-page.css">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
@@ -49,6 +50,41 @@
 
         </ul>
     </nav>
+    <section class="landing-page">
+        <div class="start">
+            <p class="date-item">
+                <span class="date">14<span class="th">th</span>-15<span class="th">th</span></span> March 2020
+            </p>
+            <h2 class="banner-title" >
+               Ingenious <br> Hackathon
+            </h2>
+            <div class="banner-info">
+               <span>School of Engineering and Applied Sciences,<br /> Ahmedabad University</span>
+            </div>
+
+         <div class="countdown">
+            <div class="counter-item">
+                <span class="days time">00</span>
+                <div class="smalltext">Days</div>
+
+            </div>
+            <div class="counter-item">
+                <span class="hours time">00</span>
+                <div class="smalltext">Hours</div>
+
+            </div>
+            <div class="counter-item">
+                <span class="minutes time">00</span>
+                <div class="smalltext">Minutes</div>
+            </div>
+            <div class="counter-item">
+                <span class="seconds time">00</span>
+                <div class="smalltext">Seconds</div>
+            </div>
+        </div>
+         </div>
+         <img src="./images/landing-page-g.svg" class="lp-g">
+    </section>
 
     <section class="about-us" id="about">
         <div class="content">
@@ -63,7 +99,11 @@
                 with a large footfall from across the state. Every team works on the selected problem and is evaluated
                 for their progress, innovation, and the practicality of their work, on regular intervals.
             </div>
+
         </div>
+
+        <img src="./images/about-us-g.svg" alt="" class="about-us-g">
+        
     </section>
 
     <section class="tracks" id="tracks">
@@ -237,9 +277,10 @@
                 <div class="sponsor"><img src="images/sponsors/sponsor8.png" alt=""></div>
                 <div class="sponsor"><img src="images/sponsors/sponsor9.png" alt=""></div>
 
-                <div class="sponsor-btn text-center">
-                    <a href="index-7.html#" class="btn">Link to Brochure</a>
-                </div>
+            </div>
+
+            <div class="sponsor-btn text-center">
+                <a href="index-7.html#" class="btn">Link to Brochure</a>
             </div>
         </div>
     </section>
@@ -315,22 +356,30 @@
     </section>
     <section id="contact" class="contact">
         <div class="content">
-            <div class="title">Contact</div>
-            <div class="details">
-
-            </div>
+            <div class="title">Reach Us</div>
             <div class="map-section">
-                
-                <div class="mapouter">
-                    <div class="gmap_canvas">
-                       <iframe
-                       src="https://maps.google.com/maps?q=School%20of%20Engineering%20and%20Applied%20Science%2CAhmedabad&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
-                    </div>
 
-                 </div>
+                <div class="mapouter col-12 col-lg-6">
+                    <div class="gmap_canvas">
+                        <iframe
+                            src="https://maps.google.com/maps?q=School%20of%20Engineering%20and%20Applied%20Science%2CAhmedabad&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+                    </div>
+                </div>
+
+                <div class="venue col-12 col-lg-6">
+                    <h5>Venue:</h5> School of Engineering and Applied Science,<br /> Ahmedabad University
+                    Commerce Six Roads,<br /> Navrangpura, Ahmedabad- 380009
+
+                <a class="dir-btn"
+                href="https://www.google.com/maps/dir//23.0372632,72.5521715/@23.037263,72.552172,13z?hl=en-US" target="_blank">Direction</a>
+                </div>
             </div>
+            <div class="title">Contact Us</div>
+           
         </div>
     </section>
+    <script src="./jquery.js"></script>
+    <script src="jquery.jCounter.js"></script>
     <script src="./nav.js"></script>
 </body>
 
