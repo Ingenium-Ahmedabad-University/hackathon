@@ -5,7 +5,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 .faq .content{
-    padding-top:20%;
+    padding-top:10%;
     padding-bottom:5%;
     color:var(--text-col);
     display:block;
@@ -16,6 +16,7 @@
     font-size: 300%;
     font-weight: 700;
     letter-spacing: 2px;
+    padding-bottom: 1em;
 
 }
 .faq .q{
@@ -29,8 +30,10 @@
 }
 .faq .qas{
     display:flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: flex-start;
     flex-wrap: wrap;
+    align-content: center;
 
 }
 .faq .add{
@@ -59,7 +62,14 @@
 .faq .a{
     display:none;
 }
+.faq .qa{
+    height:0px;
+}
 .faq .a.active{
+    height:auto;
     display:block;
-    transition: all 0.7s ease-in;
+    transition: height 0.7s ease-in;
+}
+.faq .active{
+    transition:all 4s ease-in;
 }

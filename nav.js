@@ -33,3 +33,12 @@ $('a[href*=\\#]:not([href=\\#])').on('click',()=>{
         return false;
     }
 })
+
+//faq
+
+buttons = $('.add')
+for (let b of buttons){
+    b.addEventListener('click',(e)=>{
+        b.nextElementSibling.classList.toggle('active');
+    })
+}
