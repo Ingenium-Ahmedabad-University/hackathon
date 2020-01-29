@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./about-us.css">
     <link rel="stylesheet" href="./tracks.css">
     <link rel="stylesheet" href="./timeline.css">
+    <link rel="stylesheet" href="./faq.css">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
@@ -30,25 +31,25 @@
 <body>
     <nav>
         <div class="menu"><i class="material-icons" id="menu-icon">
-            apps
+                apps
             </i>
-            
-             </div>
-        <ul class="nav-hide" id="nav-list"> 
+
+        </div>
+        <ul class="nav-hide" id="nav-list">
             <i class="material-icons" id="clear">
                 clear
-                </i>
-            <li><a href="">About Us</a></li>
-            <li><a href="">Tracks</a></li>
-            <li><a href="">Timeline</a></li>
-            <li><a href="">Sponsors</a></li>
-            <li><a href="">FAQs</a></li>
-            <li><a href="">Contact Us</a></li>
+            </i>
+            <li><a class="link" href="#about">About Us</a></li>
+            <li><a class="link" href="#tracks">Tracks</a></li>
+            <li><a class="link" href="#schedule">Schedule</a></li>
+            <li><a class="link" href="#sponsor">Sponsors</a></li>
+            <li><a class="link" href="#faq">FAQs</a></li>
+            <li><a class="link" href="">Contact Us</a></li>
 
         </ul>
     </nav>
 
-    <section class="about-us">
+    <section class="about-us" id="about">
         <div class="content">
             <div class="title">
                 About Us
@@ -64,7 +65,7 @@
         </div>
     </section>
 
-    <section class="tracks">
+    <section class="tracks" id="tracks">
         <div class="content">
             <div class="title">Tracks</div>
             <div class="cards">
@@ -112,9 +113,9 @@
         </div>
     </section>
 
-    <section class="timeline">
+    <section class="timeline" id="Schedule">
         <div class="content">
-            <div class="title">Timeline</div>
+            <div class="title">Schedule</div>
             <div class="date-links">
                 <button id="14th">14<sup>th</sup>March</button>
                 <button id="15th">15<sup>th</sup>March</button>
@@ -221,8 +222,70 @@
         </div>
     </section>
 
-    <section class="sponsor">
-        <div class="title">Sponsors</div>
+    <section class="sponsor" id="sponsor">
+        <div class="content">
+            <div class="title">Our Previous Sponsors</div>
+            <div class="sponsors-logo text-center offset-1 col-10">
+                <div class="sponsor"><img src="images/sponsors/sponsor1.png" alt=""></div>
+                <div class="sponsor"><img src="images/sponsors/sponsor2.png" alt=""></div>
+                <div class="sponsor"><img src="images/sponsors/sponsor3.png" alt=""></div>
+                <div class="sponsor"><img src="images/sponsors/sponsor4.png" alt=""></div>
+                <div class="sponsor"><img src="images/sponsors/sponsor5.png" alt=""></div>
+                <div class="sponsor"><img src="images/sponsors/sponsor6.png" alt=""></div>
+                <div class="sponsor"><img src="images/sponsors/sponsor7.png" alt=""></div>
+                <div class="sponsor"><img src="images/sponsors/sponsor8.png" alt=""></div>
+                <div class="sponsor"><img src="images/sponsors/sponsor9.png" alt=""></div>
+
+                <div class="sponsor-btn text-center">
+                    <a href="index-7.html#" class="btn">Link to Brochure</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq" id="faq">
+        <div class="content">
+            <div class="title">FAQ</div>
+            <div class="qa">
+                   What is Ingenious Hackathon?
+                   
+                    <p>Ingenious Hackathon is an initiative by some nerdy noobs at School of Engineering and Applied Sciences,
+                        Ahmedabad University. We want you in the limelight, while we manage the light and the
+                        technicalities. We want you to come and build & code. We provide
+                        everything else (Not transportation).</p>
+
+                Who can participate?
+                    <p>The maximum age of the participant must be 25. He must not necessarily be a college student.</p>
+                
+
+                What are the dates?
+                   
+                    <p>2nd and 3rd March, 2020</p>
+
+                   What is the team size?    
+                   
+                    <p>2-4 people. Lone-wolves strictly not allowed.</p>
+
+                   What should I bring?    
+                   
+                    <p>A valid government issued photo ID and/or your college issued photo ID, laptop, phone, chargers
+                        and your favorite blanket. (we'll be providing mattresses).</p>
+
+                   What items are prohibited?    
+                   
+                    <p>Drugs, Alcohol or any sort of weapons that can injure or are in any way harmful or addictive. If
+                        you are unsure, please ask us.</p>
+
+                   How does judging work?
+                   
+                   
+                    <p>The companies will provide their juries who will judge the projects in the respective fields
+                        based on the development of the project during the 36 hours as well as a 10-minute presentation
+                        after the Ingenious Hackathon time finishes.
+                    </p>
+
+            </div>
+        </div>
     </section>
     <script src="./nav.js"></script>
 </body>

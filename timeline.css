@@ -10,7 +10,6 @@
     font-family: 'Montserrat', sans-serif;
     color:var(--text-col);
     display:block;
-    overflow-y: visible;
 }
 .timeline .title {
     text-align: center;
@@ -68,7 +67,7 @@
     top:0;
     right:-4px;
     width:5px;
-    height:170%;;
+    height:120%;;
     content: '';
     background-color:rgb(212, 209, 209);
 }
@@ -89,7 +88,7 @@
     top:0;
     left:-1px;
     width:5px;
-    height:170%;;
+    height:120%;;
     content: '';
     background-color: rgb(212, 209, 209);
 }

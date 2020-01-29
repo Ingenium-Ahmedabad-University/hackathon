@@ -5,11 +5,9 @@
     font-family: 'Montserrat', sans-serif;
 }
 .sponsor .content{
-    padding-left:10%;
     padding-top:20%;
     padding-bottom:5%;
-    width:80%;
-    
+    background-color: #FE654F;
     color:var(--text-col);
     display:block;
 }
@@ -20,4 +18,37 @@
     font-weight: 700;
     letter-spacing: 2px;
 
+}
+.sponsors-logo{
+    padding-top:6em;
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.sponsors-logo .sponsor{
+
+    margin-left: 1em;
+    margin-right:1em;
+    height: 200px;
+    width:200px;
+}
+
+.sponsors-logo .sponsor img{
+    filter:grayscale(100%);
+}
+.sponsors-logo .sponsor:hover{
+    filter:none;
+}
+.sponsor-btn .btn{
+    color:whitesmoke;
+    width:16rem;
+    border-radius: 10px;
+    border:2px solid whitesmoke;
+}
+.sponsor-btn .btn:hover{
+    background-color: whitesmoke;
+    color:var(--btn-col);
+    transition: all 0.3s ease-in;
 }
