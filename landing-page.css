@@ -107,6 +107,7 @@
         font-size: 20px;
     }
     .lp-g{
+        z-index:-15;
         width: 100vw;
         min-width: 0;
         height:auto;

@@ -8,6 +8,8 @@
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: top -50px left , bottom right;
+    height:auto;
+    overflow: visible;
 }
 
 .tracks .content {
@@ -72,4 +74,48 @@
     box-shadow: 5px 5px 10px rgba(169, 169, 170, 0.69), -5px -5px 10px rgba(255, 255, 255, 1);
     border-radius: 9px;
     transition: all 0.5s ease-in-out;
+}
+
+@media screen and (min-width:1600px){
+    .tracks .card{
+     
+    margin-left:4em;
+    margin-right:4em;   
+    }
+}
+.tracks-g{
+    overflow: visible;
+    display:flex;
+    justify-content: space-between;
+}
+.tracksgl{
+    padding-left:2vw;
+    display:inline-block;
+    width:20vw;
+}
+.tracksgr{
+    padding-right: 2vw;
+    position: relative;
+    top:2vw;
+    display: inline-block;
+    width:40vw;
+}
+
+@media screen and (max-width:1200px){
+    .tracks-g{
+        overflow: visible;
+        display:flex;
+        justify-content: center;
+    }
+    .tracksgl{
+        display:none;
+    }
+
+.tracksgr{
+    padding-right: 2vw;
+    position: relative;
+    top:2vw;
+    display: inline-block;
+    width:70vw;
+}
 }

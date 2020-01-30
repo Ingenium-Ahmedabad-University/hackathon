@@ -3,6 +3,10 @@
     --text-col:#1A281F;
     --btn-col:#FE654F;
     font-family: 'Montserrat', sans-serif;
+    background-image: url('./images/faq-bg.svg');
+    background-position: top left;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 .faq .content{
     padding-top:10%;

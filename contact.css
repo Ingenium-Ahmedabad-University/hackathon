@@ -4,105 +4,12 @@
     --text-col:#1A281F;
     --btn-col:#FE654F;
 }
-.contact {
-    padding-top: 5%;
-}
 
-.contact .title {
+.contact-us .title{
     text-align: center;
     color: var(--title-col);
     font-size: 300%;
     font-weight: 700;
     letter-spacing: 2px;
     padding-bottom: 1em;
-
-}
-.mapouter .gmap_canvas {
-    position: relative;
-    height: calc(100vw - 5px);
-    width: calc(100vw - 5px);
-    max-width: 500px;
-    max-height: 500px;
-    overflow: hidden;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -ms-border-radius: 50%;
-    border: none;
-}
-.mapouter{
-    padding:0 !important;
-    height: calc(100vw - 5px);
-    width: calc(100vw - 5px);
-    max-width: 500px;
-    max-height: 500px;
-}
-.mapouter .gmap_canvas iframe {
-    width: 100% !important;
-    height: 100% !important;
-    -webkit-filter: grayscale(80%);
-    filter: grayscale(80%);
-    border: none;
-}
-.mapouter .gmap_canvas iframe:hover {
-    -webkit-filter: grayscale(0%);
-    filter: grayscale(0%);
-    transition: all 1s ease-in;
-}.mapouter .gmap_canvas iframe .place-card.place-card-large{
-    display:none !important;
-}
-.map-section{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-aroundz;
-    align-content: center;
-    align-items: center;
-    background-image: url('./images/reachus-bg.svg');
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-    background-position: bottom right;
-}
-.dir-btn{
-    position: relative;
-    left : calc(50% - 100px) ;
-    display: block;
-    border: none;
-    border-radius: 10px;
-    border:2px solid  var(--btn-col);
-    padding: 1rem 1rem;
-    width:200px;
-    margin: 10px;
-    text-decoration: none;
-    letter-spacing: 2px;
-    color: #ffffff;
-    cursor: pointer;
-    text-align: center;
-    transition: background-color 250ms ease-in-out, 
-                transform 150ms ease;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background-color: var(--btn-col);
-    color:whitesmoke;
-}
-.dir-btn:hover{
-    text-decoration: none;
-    background-color: transparent;
-    color:var(--btn-col);
-    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 0.5s;
-}
-.dir-btn a:hover{
-    text-decoration: none;
-}
-.venue{
-    padding-top: 2em;
-    text-align: center;
-}
-.venue h5{
-    font-size: 30px;
-    color:var(--title-col);
-}
-footer{
-    height:50vh;
-    background-image: url('./images/bg-3.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
 }

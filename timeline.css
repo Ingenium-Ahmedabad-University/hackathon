@@ -5,7 +5,7 @@
     background-image: url('./images/schedule-bg.svg');
     background-repeat: no-repeat;
     background-size: 100% auto;
-    background-position: bottom -200px left;
+    background-position: bottom -150px left;
 
 }
 .timeline .content{
@@ -108,4 +108,18 @@
 
 .hidden{
     display:none;
+}
+
+.timeline-g-block{
+    display:flex;
+    justify-content: center;
+}
+@media screen and (min-width:1300px){
+    .timeline-g-block{
+        padding-left: 5vw;
+        display:inline-flex;
+        position: relative;
+        justify-content: flex-start;
+        bottom:30vh;
+    }
 }
