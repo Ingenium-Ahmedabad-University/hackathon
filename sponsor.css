@@ -7,7 +7,7 @@
 .sponsor .content{
     padding-top:20%;
     padding-bottom:5%;
-    background-color: #FE654F;
+    background-color: #D6ECE1;
     color:var(--text-col);
     display:block;
 }
@@ -29,23 +29,23 @@
 }
 .sponsors-logo .sponsor{
 
-    margin-left: 1em;
-    margin-right:1em;
-    height: 200px;
-    width:200px;
+    margin: 1em;
 }
 
 .sponsors-logo .sponsor img{
+
+    height: 100px;
     filter:grayscale(100%);
 }
-.sponsors-logo .sponsor:hover{
+.sponsors-logo .sponsor:hover img{
     filter:none;
 }
 .sponsor-btn{
     display:block !important;
 }
 .sponsor-btn .btn{
-    color:whitesmoke;
+    margin-top:5em;;
+    color:var(--title-col);
     width:16rem;
     border-radius: 10px;
     border:2px solid whitesmoke;

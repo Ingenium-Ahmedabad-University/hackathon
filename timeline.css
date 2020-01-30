@@ -2,6 +2,10 @@
     --title-col:rgb(72, 78, 74);
     --text-col:#1A281F;
     --btn-col:#FE654F;
+    background-image: url('./images/schedule-bg.svg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: bottom -200px left;
 
 }
 .timeline .content{
