@@ -3,11 +3,12 @@
     --text-col:#1A281F;
     --btn-col:#FE654F;
     font-family: 'Montserrat', sans-serif;
+
+    background-color: #D6ECE1;
 }
 .sponsor .content{
     padding-top:5%;
     padding-bottom:5%;
-    background-color: #D6ECE1;
     color:var(--text-col);
     display:block;
 }
@@ -36,19 +37,55 @@
 
 .sponsors-logo .sponsor img{
     height: 100px;
-}
-.sponsor-btn{
-    display:block !important;
-}
-.sponsor-btn .btn{
-    margin-top:5em;;
-    color:var(--title-col);
-    width:16rem;
+} .sponsor-btn{
+    display: inline-block;
+    border: none;
     border-radius: 10px;
-    border:2px solid whitesmoke;
+    border:2px solid  var(--btn-col);
+    padding: 1rem 1rem;
+    margin: 10px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: var(--btn-col);
+    color:whitesmoke !important;
 }
-.sponsor-btn .btn:hover{
-    background-color: whitesmoke;
+ .sponsor-btn:hover{
+    text-decoration: none;
+    background-color: transparent;
     color:var(--btn-col);
-    transition: all 0.3s ease-in;
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 0.5s;
+}
+.sponsor-btn a{
+    color:whitesmoke ;
+    text-decoration: none;
+} 
+.sponsor-btn a:hover{
+    color:var(--btn-col);
+    text-decoration: none;
+}
+.coffee{
+    display: inline-block;
+}
+.b-strip-text{
+
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.b-strip-text span{
+    text-transform: uppercase;
+    font-size: 120%;
+}
+.brochure-strip{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }

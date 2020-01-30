@@ -2,6 +2,7 @@
     display: block;
     --title-col: rgb(72, 78, 74);
     --text-col: #1A281F;
+    
 }
 .tracks{
     background-image: url('./images/track-bg.svg');
@@ -40,6 +41,7 @@
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    
 }
 
 .tracks .card {
@@ -48,6 +50,8 @@
     margin-right:2em;
     margin-top: 10vh;
     padding-bottom: 4em;
+    border-radius: 10px;
+    background-color: #CBE1FF;
 }
 
 .tracks .card .img {
@@ -70,17 +74,11 @@
     left: 7%;
 }
 
-.tracks .card:hover {
-    box-shadow: 5px 5px 10px rgba(169, 169, 170, 0.69), -5px -5px 10px rgba(255, 255, 255, 1);
-    border-radius: 9px;
-    transition: all 0.5s ease-in-out;
-}
-
 @media screen and (min-width:1600px){
     .tracks .card{
      
-    margin-left:4em;
-    margin-right:4em;   
+    margin-left:6em;
+    margin-right:6em;   
     }
 }
 .tracks-g{
@@ -100,6 +98,7 @@
     display: inline-block;
     width:40vw;
 }
+
 
 @media screen and (max-width:1200px){
     .tracks-g{

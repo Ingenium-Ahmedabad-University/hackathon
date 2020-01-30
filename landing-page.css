@@ -5,6 +5,12 @@
     --btn-col:#Ff6661;
     --col3:rgb(59, 19, 122);
     --bg-col: #F5F5F5;
+    font-size: 22px;
+}
+@media screen and (max-width:800px){
+    *{
+        font-size: 16px;
+    }
 }
 .landing-page{
     background-image: url('./images/landing-bg.svg');
@@ -15,6 +21,7 @@
     justify-content: center;
     flex-wrap: wrap;
     height:auto;
+    min-height: 100vh;
 }
 .start{
     display:inline-block;
@@ -48,7 +55,7 @@
 .banner-title{
     overflow: visible;
     color:var(--col3) !important;
-    font-size: 80px;
+    font-size: 400%;
     font-weight: 700;
 }
 
@@ -133,4 +140,8 @@
         padding-left:4vw;
     }
     
+}
+
+title{
+    display: none !important;
 }

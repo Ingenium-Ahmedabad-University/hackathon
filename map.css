@@ -73,19 +73,14 @@
     text-decoration: none;
 }
 .venue{
+    font-size: 120%;
     padding-top: 2em;
     text-align: center;
     justify-self: flex-start;
 }
-.venue h5{
-    font-size: 30px;
+.venue h3{
+    font-size: 180%;
     color:var(--title-col);
-}
-footer{
-    height:50vh;
-    background-image: url('./images/bg-3.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 .reach-us .title{
 
@@ -109,14 +104,14 @@ footer{
     background-image: url('./images/animated-svg/reachusleft\ animated.svg'),url('./images/animated-svg/reachusright\ animated.svg'),url('./images/contact-bg.svg');
     background-repeat: no-repeat;
     background-size: auto 100%,auto 100%,100% auto;
-    background-position: top left, top right,bottom;
+    background-position: top left, top right,bottom -7px left;
 }
 @media screen and (max-width:768px){
     .reach-us{
         background-image: url('./images/animated-svg/reachusright\ animated.svg'),url('./images/contact-bg.svg');
         background-repeat: no-repeat;
         background-size: auto 100% , 100% auto;
-        background-position:top right, bottom;
+        background-position: top right,bottom -7px left;
     }
    
 .reach-us .content{

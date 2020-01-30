@@ -115,6 +115,11 @@
     display:flex;
     justify-content: center;
 }
+
+.current-day{
+    background-color: transparent !important;
+    color:var(--btn-col) !important;
+}
 @media screen and (min-width:1300px){
     .timeline-g-block{
         padding-left: 5vw;
@@ -124,3 +129,4 @@
         bottom:30vh;
     }
 }
+

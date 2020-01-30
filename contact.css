@@ -1,11 +1,10 @@
-*{
-
-    --title-col:rgb(72, 78, 74);
-    --text-col:#1A281F;
-    --btn-col:#FE654F;
+* {
+    --title-col: rgb(72, 78, 74);
+    --text-col: #1A281F;
+    --btn-col: #FE654F;
 }
 
-.contact-us .title{
+.contact-us .title {
     text-align: center;
     color: var(--title-col);
     font-size: 300%;
@@ -13,17 +12,93 @@
     letter-spacing: 2px;
     padding-bottom: 1em;
 }
-.contact-us{
+
+.contact-us {
     background-color: #DCC5F1;
+    font-family: 'Montserrat';
 }
-@media screen and (max-width:768px){
-    .contact-us .content{
+
+@media screen and (max-width:768px) {
+    .contact-us .content {
         background-color: rgba(255, 255, 255, 0.47);
-       
     }
-    .contact-us .title{
-    
+    .contact-us .title {
         background-color: rgba(255, 255, 255, 0.47);
-       
     }
+}
+
+.contact-us .list {
+
+    padding-top: 5em;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-ele {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 1em;
+}
+
+.contact-ele img {
+    height: 40px;
+    width: auto;
+}
+
+.contact-ele .details {
+    display: inline-block;
+    padding-left:2em;
+    width:100%;
+}
+.contact-ele .details .name {
+    font-size: 120%;
+    font-weight: 600;
+    color:var(--title-col);
+}
+.contact-us .contact-g{
+    display: inline-block;
+    width:250px;
+    height:auto;
+}
+.contact-us .content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+@media screen and (max-width:650px){
+.contact-us .list {
+    padding-top: 5em;
+    padding-left: 10%;
+    width: 90%;
+}
+
+}
+.us{
+    padding-top: 3em;
+    font-family: 'Bowlby One', cursive;
+}
+.us img{
+    display: inline;
+}
+footer{
+    font-size: 70%;
+    text-align: center;
+    background-color:#DCC5F1 ;
+    color:var(--title-col);
+    padding-bottom: 2em;
+    text-transform: uppercase;
+}
+footer a{
+    color:var(--text-col);
+    display: inline;
+}
+footer a:hover{
+    color:var(--text-col);
+
+}
+.name.site{
+    word-wrap: break-word;
 }

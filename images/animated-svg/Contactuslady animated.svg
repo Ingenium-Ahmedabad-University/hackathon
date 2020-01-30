@@ -1,4 +1,4 @@
-<svg width="931" height="617" viewBox="0 0 931 617" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="700" height="462" viewBox="0 0 700 462" fill="none" xmlns="http://www.w3.org/2000/svg">
 <style>
     .moveme{
   animation: move 7s cubic-bezier(.36,.07,.19,.97) both infinite;
@@ -51,7 +51,7 @@
 }
 
 </style>
-<g id="Group">
+
 <g id="Group_2">
 <g id="Group_3">
 <g id="BackLeaf">
@@ -337,5 +337,5 @@
 </g>
 </g>
 </g>
-</g>
+
 </svg>
