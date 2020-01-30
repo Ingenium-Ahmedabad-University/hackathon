@@ -32,10 +32,9 @@
 
 .about-us-g{
     padding-top:20%;
-    padding-left:5%;
     display:inline-block;
     z-index:0;
-    width: 30%;
+    width: 35%;
     min-width:400px;
     height:auto;
 }
@@ -58,7 +57,7 @@
     padding-left:5%;
     display:block;
     z-index:-15;
-    width: 80%;
+    width: 100%;
     height:auto;
 }
 }
