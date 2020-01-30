@@ -5,7 +5,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 .sponsor .content{
-    padding-top:15%;
+    padding-top:5%;
     padding-bottom:5%;
     background-color: #D6ECE1;
     color:var(--text-col);
@@ -28,16 +28,14 @@
     align-content: center;
 }
 .sponsors-logo .sponsor{
+    display: flex;
+    justify-content: center;
     margin: 1em;
+    min-width:300px;
 }
 
 .sponsors-logo .sponsor img{
     height: 100px;
-    filter:grayscale(80%);
-}
-.sponsors-logo .sponsor:hover img{
-    filter:none;
-    transition: all 0.3s ease-in;
 }
 .sponsor-btn{
     display:block !important;

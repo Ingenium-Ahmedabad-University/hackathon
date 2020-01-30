@@ -7,12 +7,16 @@
     background-position: top left;
     background-size: 100% auto;
     background-repeat: no-repeat;
+    padding-top: 10%;
 }
 .faq .content{
-    padding-top:10%;
+    display:flex;
     padding-bottom:5%;
     color:var(--text-col);
-    display:block;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .faq .title {
     text-align: center;
@@ -26,14 +30,16 @@
 .faq .q{
     padding-top:1em ;
     padding-bottom: 1em;
-    color:var(--text-col);
+    color:black;
     font-size:110%;
 }
 .faq .a{
     color:var(--title-col);
 }
 .faq .qas{
-    display:flex;
+    width:60vw;
+    min-width: 500px;
+    display:inline-flex;
     flex-direction: column;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -42,8 +48,6 @@
 }
 .faq .add{
     display: inline;
-    height:30px;
-    width:30px;
     border: none;
     background: none;
     margin: 10px;
@@ -76,4 +80,12 @@
 }
 .faq .active{
     transition:all 4s ease-in;
+}
+
+.faq-g{
+    padding-top:calc(40% - 350px);
+    justify-self: center;
+    display: inline-block;
+    width:350px;
+    height: auto;
 }

@@ -2,7 +2,7 @@
 
     --title-col:rgb(72, 78, 74);
     --text-col:#1A281F;
-    --btn-col:#FE654F;
+    --btn-col:#Ff6661;
     --col3:rgb(59, 19, 122);
     --bg-col: #F5F5F5;
 }
@@ -11,6 +11,10 @@
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: bottom  -30px right;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height:auto;
 }
 .start{
     display:inline-block;
@@ -26,7 +30,7 @@
     padding-left: 2em;
     padding-right: 2em;
     border-radius: 10px;
-    border:2px solid var(--btn-col);
+    border:2px solid var(--btn-col) ;
     color:var(--col3);
     font-weight: 600;
     width:15rem;
@@ -79,19 +83,16 @@
     align-items: center;
 }
 .start{
-    padding-left: 20%;
     display:inline-flex;
     flex-direction: column;
 }
 
 .lp-g{
+    padding-top: 15vh;
     z-index:0;
     width: 50vw;
     height:auto;
     min-width: 500px;
-    position: absolute;
-    right:4vw;
-    bottom:10vh;
 }
 .devfolio-btn{
     display:inline-block;
@@ -99,9 +100,15 @@
     color:var(--bg-col) !important;
     text-align: center;
     border-radius: 10px;
-    padding:1rem;
+    padding:0.5rem;
     width:80%;
     cursor: pointer;
+    font-size: 120%;
+}
+.devfolio-btn span{
+    font-size: 60%;
+    opacity:0.6;
+    text-transform: uppercase;
 }
 @media screen and (max-width:550px){
     .start{
@@ -119,7 +126,6 @@
         font-size: 20px;
     }
     .lp-g{
-        z-index:-15;
         width: 100vw;
         min-width: 0;
         height:auto;

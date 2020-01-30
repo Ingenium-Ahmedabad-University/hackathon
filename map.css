@@ -4,6 +4,7 @@
     --text-col:#1A281F;
     --btn-col:#FE654F;
 }
+
 .mapouter .gmap_canvas {
     position: relative;
     height: calc(100vw - 5px);
@@ -26,19 +27,15 @@
 .mapouter .gmap_canvas iframe {
     width: 100% !important;
     height: 100% !important;
-    -webkit-filter: grayscale(80%);
-    filter: grayscale(80%);
+    -webkit-filter: grayscale(20%);
+    filter: grayscale(20%);
     border: none;
-}
-.mapouter .gmap_canvas iframe:hover {
-    -webkit-filter: grayscale(0%);
-    filter: grayscale(0%);
-    transition: all 1s ease-in;
 }.mapouter .gmap_canvas iframe .place-card.place-card-large{
     display:none !important;
 }
 .map-section{
-    display:flex;
+    display:inline-flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
@@ -78,6 +75,7 @@
 .venue{
     padding-top: 2em;
     text-align: center;
+    justify-self: flex-start;
 }
 .venue h5{
     font-size: 30px;
@@ -89,17 +87,6 @@ footer{
     background-repeat: no-repeat;
     background-size: contain;
 }
-.reach-us-g{
-    z-index: -15;
-    position: absolute;
-    left:75vw;
-    transform:translateY(-20vw) ;
-    width:50vw;
-    min-width: 400px;
-}
-.reach-us-g img{
-    width: 100%;
-}
 .reach-us .title{
 
     text-align: center;
@@ -108,4 +95,37 @@ footer{
     font-weight: 700;
     letter-spacing: 2px;
     padding-bottom: 1em;
+}
+.reach-us .content{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.reach-us{
+    margin-top: 10em;
+    background-image: url('./images/animated-svg/reachusleft\ animated.svg'),url('./images/animated-svg/reachusright\ animated.svg'),url('./images/contact-bg.svg');
+    background-repeat: no-repeat;
+    background-size: auto 100%,auto 100%,100% auto;
+    background-position: top left, top right,bottom;
+}
+@media screen and (max-width:768px){
+    .reach-us{
+        background-image: url('./images/animated-svg/reachusright\ animated.svg'),url('./images/contact-bg.svg');
+        background-repeat: no-repeat;
+        background-size: auto 100% , 100% auto;
+        background-position:top right, bottom;
+    }
+   
+.reach-us .content{
+    background-color: rgba(255, 255, 255, 0.47);
+    border-radius: 10px;
+}
+.reach-us .title{
+
+    background-color: rgba(255, 255, 255, 0.47);
+    border-radius: 10px;
+}
 }
