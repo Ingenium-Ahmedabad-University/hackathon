@@ -1,5 +1,30 @@
 <svg width="300" height="334" viewBox="0 0 300 334" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Group">
+<style>
+.moveme{
+  animation: move 7s cubic-bezier(.36,.07,.19,.97) both infinite;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+
+}
+@keyframes move {
+  0% {
+    transform: translate3d(0px, 0, 0);
+  }
+
+  50% {
+    transform: translate3d(0px, -50px, 0);
+  }
+
+  100%{
+      transform:translate3d(0px,0,0);
+  }
+
+}
+
+</style>
+
+<g id="Group" class="moveme">
 <g id="Group_2">
 <path id="Vector" d="M89.969 268.254H203.135V324.05H89.969V268.254Z" fill="#ECEBE4"/>
 <path id="Vector_2" d="M89.969 290.435H203.135V302.295H89.969V290.435Z" fill="#D3D2CD"/>

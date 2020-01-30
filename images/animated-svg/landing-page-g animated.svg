@@ -9,22 +9,22 @@
 
 }
 @keyframes shake {
-  5%, 45% {
+  10%, 90% {
     transform: translate3d(-1px, 0, 0);
   }
 
-  10%, 40% {
+  20%, 60% {
     transform: translate3d(2px, 0, 0);
   }
 
-  15%, 25%, 35% {
+  25%, 30%, 40% {
     transform: translate3d(-4px, 0, 0);
   }
 
-  20%, 30% {
+  65%, 80% {
     transform: translate3d(4px, 0, 0);
   }
-  65%, 100% {
+  75%, 100% {
     transform: translate3d(-8px, 0, 0);
   }
 }
@@ -36,22 +36,22 @@
 
 }
 @keyframes shake1 {
-  5%, 45% {
+  10%, 90% {
     transform: translate3d(7px, 0, 0);
   }
 
-  10%, 40% {
+  20%, 60% {
     transform: translate3d(-2px, 0, 0);
   }
 
-  15%, 25%, 35% {
+  25%, 30%, 40% {
     transform: translate3d(4px, 0, 0);
   }
 
-  20%, 30% {
+  65%, 80% {
     transform: translate3d(7px, 0, 0);
   }
-  65%, 100% {
+  75%, 100% {
     transform: translate3d(-5px, 0, 0);
   }
 
@@ -65,22 +65,22 @@
 
 }
 @keyframes shakedbox {
-  5%, 45% {
+  10%, 90% {
     transform: translate3d(-9px, 2px, 0);
   }
 
-  10%, 40% {
+  20%, 60% {
     transform: translate3d(7px, -3px, 0);
   }
 
-  15%, 25%, 35% {
+  65%, 30%, 40% {
     transform: translate3d(-4px, 3px, 0);
   }
 
-  20%, 30% {
+  55%, 80% {
     transform: translate3d(5px, -4px, 0);
   }
-  65%, 100% {
+  75%, 100% {
     transform: translate3d(-4px, -1px, 0);
   }
 

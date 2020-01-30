@@ -1,4 +1,95 @@
 <svg width="249" height="373" viewBox="0 0 249 373" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+.shakeme{
+  animation: shake 7s cubic-bezier(.36,.07,.19,.97) both infinite;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+
+}
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 60% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  25%, 30%, 40% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  65%, 80% {
+    transform: translate3d(4px, 0, 0);
+  }
+  75%, 100% {
+    transform: translate3d(-8px, 0, 0);
+  }
+}
+.shakeme2{
+  animation: shake1 7s cubic-bezier(.36,.07,.19,.97) both infinite;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+
+}
+@keyframes shake1 {
+  10%, 90% {
+    transform: translate3d(7px, 0, 0);
+  }
+
+  20%, 60% {
+    transform: translate3d(-2px, 0, 0);
+  }
+
+  25%, 30%, 40% {
+    transform: translate3d(4px, 0, 0);
+  }
+
+  65%, 80% {
+    transform: translate3d(7px, 0, 0);
+  }
+  75%, 100% {
+    transform: translate3d(-5px, 0, 0);
+  }
+
+}
+
+.shakebox{
+  animation: shakedbox 7s cubic-bezier(.42,.1,.19,.69) both infinite;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+
+}
+@keyframes shakedbox {
+  10%, 90% {
+    transform: translate3d(-9px, 2px, 0);
+  }
+
+  20%, 60% {
+    transform: translate3d(7px, -3px, 0);
+  }
+
+  65%, 30%, 40% {
+    transform: translate3d(-4px, 3px, 0);
+  }
+
+  55%, 80% {
+    transform: translate3d(5px, -4px, 0);
+  }
+  75%, 100% {
+    transform: translate3d(-4px, -1px, 0);
+  }
+
+}
+
+
+</style>
+
+
 <g id="Group">
 <g id="Group_2">
 <path id="Vector" d="M45.8293 192.129C45.8293 192.129 23.1505 195.094 16.8597 210.28C10.5289 225.466 11.0498 246.863 5.19976 260.205C-0.610186 273.548 -5.97938 306.124 15.1768 321.591C34.2094 335.494 65.4229 348.797 106.253 338.459C147.043 328.122 187.752 313.857 181.422 291.499C175.091 269.141 178.817 235.964 148.004 232.358C128.291 230.074 104.69 209.158 93.3106 201.024C81.9311 192.93 62.6581 186.519 45.8293 192.129Z" fill="#7A92CE"/>
@@ -62,21 +153,21 @@
 </g>
 </g>
 </g>
-<g id="messagebox2">
+<g id="messagebox2" class="shakeme">
 <path id="Vector_19" d="M216.241 41.4708C216.241 50.326 209.069 57.4982 200.214 57.4982H165.635C156.779 57.4982 149.607 50.326 149.607 41.4708V16.0274C149.607 7.17225 156.779 0 165.635 0H200.214C209.069 0 216.241 7.17225 216.241 16.0274V41.4708Z" fill="#EB8B4B"/>
 <path id="Vector_20" d="M216.241 38.9866C216.241 38.9866 218.525 80.1369 181.421 75.2886C181.421 75.2886 209.99 62.7071 197.689 40.99L216.241 38.9866Z" fill="#EB8B4B"/>
 <path id="Vector_21" d="M206.344 17.3496H159.464V21.6769H206.344V17.3496Z" fill="#CC6621"/>
 <path id="Vector_22" d="M206.344 26.0042H159.464V30.3317H206.344V26.0042Z" fill="#CC6621"/>
 <path id="Vector_23" d="M206.344 34.6592H159.464V38.9866H206.344V34.6592Z" fill="#CC6621"/>
 </g>
-<g id="messagebox1">
+<g id="messagebox1" class="shakeme2">
 <path id="Vector_24" d="M6.48279 64.2302C6.48279 75.5695 15.6585 84.7452 26.9979 84.7452H71.2337C82.533 84.7452 91.7488 75.5695 91.7488 64.2302V31.6545C91.7488 20.3151 82.5731 11.1394 71.2337 11.1394H26.9979C15.6986 11.1394 6.48279 20.3151 6.48279 31.6545V64.2302Z" fill="#7A92CE"/>
 <path id="Vector_25" d="M6.48185 61.0249C6.48185 61.0249 3.55684 113.635 51.0382 107.505C51.0382 107.505 1.313 92.8394 30.2025 63.6293L6.48185 61.0249Z" fill="#7A92CE"/>
 <path id="Vector_26" d="M79.1265 33.3372H19.1838V38.8666H79.1265V33.3372Z" fill="#6380BA"/>
 <path id="Vector_27" d="M79.1265 44.436H19.1838V49.9655H79.1265V44.436Z" fill="#6380BA"/>
 <path id="Vector_28" d="M79.1265 55.4949H19.1838V61.0243H79.1265V55.4949Z" fill="#6380BA"/>
 </g>
-<g id="messagebox3">
+<g id="messagebox3" class="shakebox">
 <path id="Vector_29" d="M233.671 123.852C233.671 128.46 229.904 132.226 225.297 132.226H207.226C202.618 132.226 198.851 128.46 198.851 123.852V110.549C198.851 105.941 202.578 102.175 207.226 102.175H225.297C229.944 102.175 233.671 105.941 233.671 110.549V123.852Z" fill="#303748"/>
 <path id="Vector_30" d="M233.671 122.53C233.671 122.53 234.873 144.007 215.48 141.522C215.48 141.522 235.795 135.552 223.974 123.571L233.671 122.53Z" fill="#303748"/>
 <path id="Vector_31" d="M228.462 111.23H203.98V113.474H228.462V111.23Z" fill="#212835"/>

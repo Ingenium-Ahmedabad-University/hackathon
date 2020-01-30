@@ -12,8 +12,11 @@
     transform: translate3d(0px, 0, 0);
   }
 
-  50% {
-    transform: translate3d(110px, 0, 0);
+  25% {
+    transform: translate3d(-55px, 0, 0);
+  }
+  75% {
+    transform: translate3d(55px, 0, 0);
   }
 
   100%{
