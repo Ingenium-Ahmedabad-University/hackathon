@@ -723,6 +723,10 @@ title {
     min-width: 300px
 }
 
+.sponsors-logo .sponsor picture {
+    height: 100px
+}
+
 .sponsors-logo .sponsor img {
     height: 100px
 }

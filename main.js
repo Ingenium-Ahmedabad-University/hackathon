@@ -9,11 +9,11 @@ document.getElementById('14th').addEventListener('click',() =>{
 });
 
 document.getElementById('15th').addEventListener('click',() =>{
-    document.getElementById('14th').classList.remove('current-day');
-    document.getElementById('15th').classList.add('current-day');
+    document.getElementById('14th').classList.add('current-day');
+    document.getElementById('15th').classList.remove('current-day');
 
-    document.getElementById('15th list').classList.remove('hidden');
-    document.getElementById('14th list').classList.add('hidden');
+    document.getElementById('15th list').classList.add('hidden');
+    document.getElementById('14th list').classList.remove('hidden');
 });
 
 // navigation
