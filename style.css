@@ -377,8 +377,8 @@ a{
 }
 
 .contact-ele img {
-    height: 36px;
-    width: 36px;
+    height: 36px !important;
+    width: 36px !important;
     align-self: center;
 }
 
