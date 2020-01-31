@@ -759,7 +759,7 @@ title {
     text-decoration: none
 }
 
-.sponsor-btn a:hover {
+.sponsor-btn:hover a {
     color: var(--btn-col);
     text-decoration: none
 }
