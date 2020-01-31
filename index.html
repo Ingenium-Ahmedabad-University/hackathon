@@ -3,47 +3,29 @@
 
 <head>
     <title>Hack|Ingenium</title>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./nav-style.css">
-    <link rel="stylesheet" href="./about-us.css">
-    <link rel="stylesheet" href="./tracks.css">
-    <link rel="stylesheet" href="./timeline.css">
-    <link rel="stylesheet" href="./faq.css">
-    <link rel="stylesheet" href="./contact.css">
-    <link rel="stylesheet" href="./map.css">
-    <link rel="stylesheet" href="./landing-page.css">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Bowlby+One&display=swap" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="./sponsor.css">
-    
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./bootstrap-grid.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One|Montserrat&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <nav>
-        <div class="menu"><i class="material-icons" id="menu-icon">
-                apps
-            </i>
 
-        </div>
+    <script src="./jquery-3.4.1.min.js"></script>
+    <script src="./jquery.jCounter.js"></script>
+
+    <nav>
+        <button class="menu"><img class="material-icons" id="menu-icon" src="./images/apps-24px.svg">
+        </button>
         <ul class="nav-hide" id="nav-list">
-            <i class="material-icons" id="clear">
-                clear
-            </i>
+            <img class="material-icons" id="clear" src="./images/clear-24px.svg">
             <li><a class="link" href="#about">About Us</a></li>
             <li><a class="link" href="#tracks">Tracks</a></li>
             <li><a class="link" href="#schedule">Schedule</a></li>
@@ -63,7 +45,7 @@
                 Ingenious <br> Hackathon
             </h2>
             <div class="banner-info">
-                <span>School of Engineering and Applied Sciences,<br /> Ahmedabad University</span>
+                <span>School of Engineering and Applied Scienc,<br /> Ahmedabad University</span>
             </div>
 
             <div class="countdown">
@@ -277,7 +259,7 @@
     <section class="sponsor" id="sponsor">
         <div class="content">
             <div class="title">Our Previous Sponsors</div>
-            <div class="sponsors-logo text-center offset-1 col-10">
+            <div class="sponsors-logo  offset-1 col-10">
                 <div class="sponsor"><img src="images/sponsors/sponsor1.png" alt=""></div>
                 <div class="sponsor"><img src="images/sponsors/sponsor2.png" alt=""></div>
                 <div class="sponsor"><img src="images/sponsors/sponsor3.png" alt=""></div>
@@ -290,13 +272,13 @@
             </div>
             <div class="brochure-strip">
                 <img src="./images/animated-svg/SponsorsCoffe animated.svg" alt="" class="coffee">
-            <div class="b-strip-text">
-                <span >Interested in working with us ?</span>
-                <div class="sponsor-btn text-center">
-                <a href="" class="btn">Link to Brochure</a>
+                <div class="b-strip-text">
+                    <span>Interested in working with us ?</span>
+                    <div class="sponsor-btn ">
+                        <a href="" class="btn">Link to Brochure</a>
+                    </div>
+                </div>
             </div>
-        </div>
-        </div>
         </div>
     </section>
 
@@ -310,7 +292,7 @@
                     <span class="q">What is Ingenious Hackathon?</span>
                     <button class="add"><i class="material-icons">add</i> </button>
                     <p class="a  ">Ingenious Hackathon is an initiative by some nerdy noobs at School of Engineering and
-                        Applied Sciences,
+                        Applied Science,
                         Ahmedabad University. We want you in the limelight, while we manage the light and the
                         technicalities. We want you to come and build & code. We provide
                         everything else (Not transportation).</p>
@@ -328,7 +310,7 @@
                 <div class="qa  col-10 ">
                     <span class="q">What are the dates?</span>
                     <button class="add"><i class="material-icons">add</i> </button>
-                    <p class="a  ">2nd and 3rd March, 2020</p>
+                    <p class="a  ">14th and 15th March, 2020</p>
 
                 </div>
 
@@ -400,7 +382,7 @@
         <div class="title">Contact Us</div>
         <div class="content">
             <img src="./images/animated-svg/contact animated.svg" alt="" class="contact-g">
-            
+
             <div class="list">
                 <div class="contact-ele">
                     <img src="https://img.icons8.com/officel/40/000000/whatsapp.png">
@@ -408,45 +390,48 @@
                             Shah</span>
                         +91-9427454248</div>
                 </div>
-            <div class="contact-ele">
-                <img src="https://img.icons8.com/officel/40/000000/whatsapp.png">
-                <div class="details"> <span class="name">Manav
-                        Darji</span>
-                    +91-9825864164</div>
-            </div>
+                <div class="contact-ele">
+                    <img src="https://img.icons8.com/officel/40/000000/whatsapp.png">
+                    <div class="details"> <span class="name">Manav
+                            Darji</span>
+                        +91-9825864164</div>
+                </div>
 
-            <div class="contact-ele">
-                <img src="https://img.icons8.com/officel/40/000000/whatsapp.png">
-                <div class="details"><span class="name">Meet Modi</span>
-                    +91-7984426876</div>
-            </div>
+                <div class="contact-ele">
+                    <img src="https://img.icons8.com/officel/40/000000/whatsapp.png">
+                    <div class="details"><span class="name">Meet Modi</span>
+                        +91-7984426876</div>
+                </div>
 
 
-            <div class="contact-ele">
-                <img src="./images/instagram-logo.png" class="icon">
-                <div class="details"><a href="https://www.instagram.com/ingeniumseas/?hl=en" class="name"  style="cursor: pointer;">@ingeniumseas</a>
+                <div class="contact-ele">
+                    <img src="./images/instagram-logo.png" class="icon">
+                    <div class="details"><a href="https://www.instagram.com/ingeniumseas/?hl=en" class="name"
+                            style="cursor: pointer;">@ingeniumseas</a>
+                    </div>
+                </div>
+                <div class="contact-ele">
+                    <img src="https://img.icons8.com/color/48/000000/gmail.png" class="icon">
+                    <div class="details"><a href="mailto:ingenium@ahduni.edu.in" class="name site"
+                            style="cursor: pointer;">ingenium@ahduni.edu.in</a>
+                    </div>
+                </div>
+
+                <div class="contact-ele">
+                    <img src="https://img.icons8.com/ios-filled/64/000000/link.png" class="icon">
+                    <div class="details">
+                        <a class="name site" href="https://ahduni.edu.in/seas/ingenium" target="_blank"
+                            style="cursor: pointer;">https://ahduni.edu.in/seas/ingenium</a></div>
                 </div>
             </div>
-            <div class="contact-ele">
-                <img src="https://img.icons8.com/color/48/000000/gmail.png" class="icon">
-                <div class="details"><a href="mailto:ingenium@ahduni.edu.in" class="name site" style="cursor: pointer;">ingenium@ahduni.edu.in</a>
-                </div>
-            </div>
-
-            <div class="contact-ele">
-                <img src="https://img.icons8.com/ios-filled/64/000000/link.png" class="icon">
-                <div class="details">
-                    <a class="name site" href="https://ahduni.edu.in/seas/ingenium"target="_blank" style="cursor: pointer;">https://ahduni.edu.in/seas/ingenium</a></div>
-            </div>
-        </div>
         </div>
     </section>
     <footer>
-        <span class="us">Developed with <img src="https://img.icons8.com/cotton/64/000000/like--v1.png"> by Ingenium Design<span >
-        <a href="https://github.com/arpitvaghela" target="_blank">Arpitsinh Vaghela</a> & <a href="https://github.com/Kaushal1011" target="_blank">Kaushal Patil</a>
+        <span class="us">Developed with <img src="https://img.icons8.com/cotton/64/000000/like--v1.png"
+                style="height:1.5em;transform: translateY(0.35em);"> by<span>
+                <a href="https://github.com/arpitvaghela" target="_blank">Arpitsinh Vaghela</a> & <a
+                    href="https://github.com/Kaushal1011" target="_blank">Kaushal Patil</a>
     </footer>
-    <script src="./jquery.js"></script>
-    <script src="./jquery.jCounter.js"></script>
     <script src="./main.js"></script>
 </body>
 
