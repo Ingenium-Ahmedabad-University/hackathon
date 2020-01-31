@@ -22,10 +22,11 @@
     <script src="./jquery.jCounter.js"></script>
 
     <nav>
-        <button class="menu"><img class="material-icons" id="menu-icon" src="./images/apps-24px.svg">
+        <button class="menu" aria-label="Navigation Button"><img class="material-icons" id="menu-icon"
+                src="./images/apps-24px.svg" alt='nav'>
         </button>
-        <ul class="nav-hide" id="nav-list">
-            <img class="material-icons" id="clear" src="./images/clear-24px.svg">
+        <div class="nav-hide" id="nav-list">
+            <img class="material-icons" id="clear" src="./images/clear-24px.svg" alter='close'>
             <li><a class="link" href="#about">About Us</a></li>
             <li><a class="link" href="#tracks">Tracks</a></li>
             <li><a class="link" href="#schedule">Schedule</a></li>
@@ -34,7 +35,7 @@
             <li><a href="#reach-us" class="link">Reach Us</a></li>
             <li><a class="link" href="#contact-us">Contact Us</a></li>
 
-        </ul>
+        </div>
     </nav>
     <section class="landing-page">
         <div class="start">
@@ -70,7 +71,7 @@
             </div>
 
         </div>
-        <img src="./images/animated-svg/landing-page-g animated.svg" class="lp-g">
+        <img src="./images/animated-svg/landing-page-g animated.svg" class="lp-g" alt="">
     </section>
     <section class="about-us" id="about">
         <div class="content">
@@ -97,7 +98,6 @@
             <div class="title">Tracks</div>
             <div class="cards">
                 <div class="card">
-                    <div class="img"></div>
                     <h3 class="title">HealthCare Tech</h3>
                     <p class="text">
                         Health technology is defined by the World Health Organization as the "application of organized
@@ -106,7 +106,6 @@
                     </p>
                 </div>
                 <div class="card">
-                    <div class="img"></div>
                     <h3 class="title">
                         Agro Tech</h3>
                     <p class="text">
@@ -118,20 +117,17 @@
                 </div>
 
                 <div class="card">
-                    <div class="img"></div>
                     <h3 class="title">FinTech</h3>
                     <p class="text"> Financial technology, often shortened to fintech, is the technology and innovation
                         that aims to compete with traditional financial methods.</p>
                 </div>
                 <div class="card">
-                    <div class="img"></div>
                     <h3 class="title">Blockchain</h3>
                     <p class="text">A blockchain, originally block chain, is a growing list of records, called blocks,
                         that are
                         linked using cryptography.</p>
                 </div>
                 <div class="card">
-                    <div class="img"></div>
                     <h3 class="title">Mobility</h3>
                     <p class="text">Mobility model, model of the motion of users of mobile phones and wireless ad hoc
                         networks.</p>
@@ -148,8 +144,8 @@
         <div class="content">
             <div class="title">Schedule</div>
             <div class="date-links">
-                <button id="14th" class="current-day">14<sup>th</sup>March</button>
-                <button id="15th">15<sup>th</sup>March</button>
+                <button id="14th" class="current-day" aria-label="Schedule 14th March">14<sup>th</sup>March</button>
+                <button id="15th" aria-label="Schedule 14th March">15<sup>th</sup>March</button>
             </div>
             <div class="schedule-list">
                 <div id="14th list">
@@ -260,14 +256,14 @@
         <div class="content">
             <div class="title">Our Previous Sponsors</div>
             <div class="sponsors-logo  offset-1 col-10">
-                <div class="sponsor"><img src="images/sponsors/sponsor1.png" alt=""></div>
-                <div class="sponsor"><img src="images/sponsors/sponsor2.png" alt=""></div>
-                <div class="sponsor"><img src="images/sponsors/sponsor3.png" alt=""></div>
-                <div class="sponsor"><img src="images/sponsors/sponsor4.png" alt=""></div>
-                <div class="sponsor"><img src="images/sponsors/sponsor5.png" alt=""></div>
-                <div class="sponsor"><img src="images/sponsors/sponsor6.png" alt=""></div>
-                <div class="sponsor"><img src="images/sponsors/sponsor7.png" alt=""></div>
-                <div class="sponsor"><img src="images/sponsors/sponsor8.png" alt=""></div>
+                <div class="sponsor"><img src="images/sponsors/sponsor1.png" alt="sponsor1"></div>
+                <div class="sponsor"><img src="images/sponsors/sponsor2.png" alt="sponsor2"></div>
+                <div class="sponsor"><img src="images/sponsors/sponsor3.png" alt="sponsor3"></div>
+                <div class="sponsor"><img src="images/sponsors/sponsor4.png" alt="sponsor4"></div>
+                <div class="sponsor"><img src="images/sponsors/sponsor5.png" alt="sponsor5"></div>
+                <div class="sponsor"><img src="images/sponsors/sponsor6.png" alt="sponsor6"></div>
+                <div class="sponsor"><img src="images/sponsors/sponsor7.png" alt="sponsor7"></div>
+                <div class="sponsor"><img src="images/sponsors/sponsor8.png" alt="sponsor8"></div>
 
             </div>
             <div class="brochure-strip">
@@ -290,7 +286,7 @@
             <div class="qas">
                 <div class="qa  col-10">
                     <span class="q">What is Ingenious Hackathon?</span>
-                    <button class="add"><i class="material-icons">add</i> </button>
+                    <button class="add" aria-label="show more"><i class="material-icons">add</i> </button>
                     <p class="a  ">Ingenious Hackathon is an initiative by some nerdy noobs at School of Engineering and
                         Applied Science,
                         Ahmedabad University. We want you in the limelight, while we manage the light and the
@@ -302,7 +298,7 @@
                 </div>
                 <div class="qa  col-10">
                     <span class="q">Who can participate?</span>
-                    <button class="add"><i class="material-icons">add</i> </button>
+                    <button class="add" aria-label="show more"><i class="material-icons">add</i> </button>
                     <p class="a  ">The maximum age of the participant must be 25. He must not necessarily be a college
                         student.</p>
 
@@ -316,14 +312,14 @@
 
                 <div class="qa  col-10">
                     <span class="q">What is the team size?</span>
-                    <button class="add"><i class="material-icons">add</i> </button>
+                    <button class="add" aria-label="show more"><i class="material-icons">add</i> </button>
                     <p class="a  ">2-4 people. Lone-wolves strictly not allowed.</p>
 
                 </div>
 
                 <div class="qa  col-10 ">
                     <span class="q">What should I bring?</span>
-                    <button class="add"><i class="material-icons">add</i> </button>
+                    <button class="add" aria-label="show more"><i class="material-icons">add</i> </button>
                     <p class="a  ">A valid government issued photo ID and/or your college issued photo ID, laptop,
                         phone,
                         chargers
@@ -332,7 +328,7 @@
                 </div>
                 <div class="qa  col-10">
                     <span class="q">What items are prohibited?</span>
-                    <button class="add"><i class="material-icons">add</i> </button>
+                    <button class="add" aria-label="show more"><i class="material-icons">add</i> </button>
                     <p class="a  ">Drugs, Alcohol or any sort of weapons that can injure or are in any way harmful or
                         addictive. If
                         you are unsure, please ask us.</p>
@@ -340,7 +336,7 @@
                 </div>
                 <div class="qa  col-10 ">
                     <span class="q">How does judging work?</span>
-                    <button class="add"><i class="material-icons">add</i> </button>
+                    <button class="add" aria-label="show more"><i class="material-icons">add</i> </button>
 
                     <p class="a  ">The companies will provide their juries who will judge the projects in the respective
                         fields
@@ -361,7 +357,7 @@
 
                 <div class="mapouter">
                     <div class="gmap_canvas">
-                        <iframe
+                        <iframe title="map"
                             src="https://maps.google.com/maps?q=School%20of%20Engineering%20and%20Applied%20Science%2CAhmedabad&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
                     </div>
                 </div>
@@ -385,40 +381,40 @@
 
             <div class="list">
                 <div class="contact-ele">
-                    <img src="https://img.icons8.com/officel/40/000000/whatsapp.png">
+                    <img src="https://img.icons8.com/officel/40/000000/whatsapp.png" alt="">
                     <div class="details"><span class="name">Nisarg
                             Shah</span>
                         +91-9427454248</div>
                 </div>
                 <div class="contact-ele">
-                    <img src="https://img.icons8.com/officel/40/000000/whatsapp.png">
+                    <img src="https://img.icons8.com/officel/40/000000/whatsapp.png" alt="">
                     <div class="details"> <span class="name">Manav
                             Darji</span>
                         +91-9825864164</div>
                 </div>
 
                 <div class="contact-ele">
-                    <img src="https://img.icons8.com/officel/40/000000/whatsapp.png">
+                    <img src="https://img.icons8.com/officel/40/000000/whatsapp.png" alt="">
                     <div class="details"><span class="name">Meet Modi</span>
                         +91-7984426876</div>
                 </div>
 
 
                 <div class="contact-ele">
-                    <img src="./images/instagram-logo.png" class="icon">
+                    <img src="./images/instagram-logo.png" class="icon" alt="">
                     <div class="details"><a href="https://www.instagram.com/ingeniumseas/?hl=en" class="name"
                             style="cursor: pointer;">@ingeniumseas</a>
                     </div>
                 </div>
                 <div class="contact-ele">
-                    <img src="https://img.icons8.com/color/48/000000/gmail.png" class="icon">
+                    <img src="https://img.icons8.com/color/48/000000/gmail.png" class="icon" alt="">
                     <div class="details"><a href="mailto:ingenium@ahduni.edu.in" class="name site"
                             style="cursor: pointer;">ingenium@ahduni.edu.in</a>
                     </div>
                 </div>
 
                 <div class="contact-ele">
-                    <img src="https://img.icons8.com/ios-filled/64/000000/link.png" class="icon">
+                    <img src="https://img.icons8.com/ios-filled/64/000000/link.png" class="icon" alt="">
                     <div class="details">
                         <a class="name site" href="https://ahduni.edu.in/seas/ingenium" target="_blank"
                             style="cursor: pointer;">https://ahduni.edu.in/seas/ingenium</a></div>
@@ -428,7 +424,7 @@
     </section>
     <footer>
         <span class="us">Developed with <img src="https://img.icons8.com/cotton/64/000000/like--v1.png"
-                style="height:1.5em;transform: translateY(0.35em);"> by<span>
+                style="height:1.5em;transform: translateY(0.35em);" alt=""> by<span>
                 <a href="https://github.com/arpitvaghela" target="_blank">Arpitsinh Vaghela</a> & <a
                     href="https://github.com/Kaushal1011" target="_blank">Kaushal Patil</a>
     </footer>
