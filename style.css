@@ -841,12 +841,6 @@ title {
     color: whitesmoke
 }
 
-.timeline .date-links button:hover {
-    background-color: transparent;
-    color: var(--btn-col);
-    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) .5s
-}
-
 .timeline .date-links button sup {
     display: inline
 }
