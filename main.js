@@ -1,5 +1,5 @@
 
-//counter fuck jquery
+//counter //fuck jquery
 finaldate = new Date('14 March 2020');
 setInterval(()=>{
 let timeleft = finaldate - new Date ();
