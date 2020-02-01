@@ -13,35 +13,36 @@ File list:
 * tracks.css
 *****************************/
 
-html,body{
-    margin:0;
-    padding:0;
+html, body {
+    margin: 0;
+    padding: 0;
 }
-*{
+
+* {
     font-family: 'Montserrat', sans-serif;
 }
-a{
+
+a {
     text-decoration: none;
-    color:inherit;
+    color: inherit;
     font-size: inherit;
     font-weight: inherit;
     font-family: inherit;
 }
-.about-us {
+
+.about-us {;
     --title-col: #484e4a;
     --text-col: #1a281f;
     display: flex;
     flex-direction: row-reverse;
-    padding-bottom: 10%;
+    min-height: 100vh;
     background-color: #ff6661
 }
 
 .about-us .content {
     display: inline-block!important;
-    padding-right: 10%;
-    padding-left: 10%;
-    padding-top: 10%;
-    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
     width: 60%;
     color: var(--text-col);
     display: inline-block;
@@ -62,11 +63,8 @@ a{
 }
 
 .about-us-g {
-    padding-top: 20%;
     display: inline-block;
     z-index: 0;
-    width: 35%;
-    min-width: 400px;
     height: auto
 }
 
@@ -79,14 +77,14 @@ a{
 
 @media screen and (max-width:800px) {
     .about-us {
-        display: block
+        display: block;
+        padding-top: 3em;
     }
     .about-us-g {
-        padding-top: 20%;
-        padding-left: 5%;
         display: block;
         z-index: -15;
-        width: 100%;
+        width: 90%;
+        padding-left: 10% ;
         height: auto
     }
 }
@@ -365,7 +363,8 @@ a{
     flex-direction: column;
     justify-content: center
 }
-.contact-us .list a:hover{
+
+.contact-us .list a:hover {
     text-decoration: underline;
 }
 
@@ -377,7 +376,7 @@ a{
 }
 
 .contact-ele img {
-    width: 36px ;
+    width: 36px;
     align-self: center;
 }
 
@@ -492,9 +491,11 @@ footer a:hover {
     height: 100vh;
     transition: height .3s ease-in
 }
-#nav-list a:hover{
+
+#nav-list a:hover {
     text-decoration: underline;
 }
+
 #nav-list.nav-hide {
     height: 0;
     transition: all ease-out .5s
@@ -525,6 +526,8 @@ footer a:hover {
     transform: scale(1.5)
 }
 
+/* Landing Page */
+
 .landing-page {
     height: 100vh;
     width: 100wv
@@ -552,16 +555,22 @@ footer a:hover {
     background-position: bottom -30px right;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     height: auto;
     min-height: 100vh
 }
 
 .start {
-    display: inline-block;
     height: auto;
     overflow: visible;
-    padding-top: 15%
+    display: inline-flex;
+    flex-direction: column;
+}
+
+img.lp-g {
+    z-index: 0;
+    max-width: 800px;
 }
 
 .date-item {
@@ -590,7 +599,7 @@ footer a:hover {
 }
 
 .banner-title {
-    margin:0;
+    margin: 0;
     overflow: visible;
     color: var(--col3)!important;
     font-size: 400%;
@@ -626,19 +635,6 @@ footer a:hover {
     align-items: center
 }
 
-.start {
-    display: inline-flex;
-    flex-direction: column
-}
-
-.lp-g {
-    padding-top: 15vh;
-    z-index: 0;
-    width: 50vw;
-    height: auto;
-    min-width: 500px
-}
-
 .devfolio-btn {
     display: inline-block;
     background-color: var(--col3);
@@ -659,7 +655,7 @@ footer a:hover {
 
 @media screen and (max-width:550px) {
     .start {
-        padding-left: 10vw
+        padding-top: 7em;
     }
     .banner-title {
         color: var(--col3);
@@ -941,7 +937,6 @@ title {
 
 .tracks .content {
     margin-left: 0;
-    padding-bottom: 5%;
     width: 100%;
     color: var(--text-col);
     display: block
@@ -970,10 +965,10 @@ title {
 
 .tracks .card {
     max-width: 24em;
-    margin-left: 2em;
-    margin-right: 2em;
-    margin-top: 10vh;
-    padding-bottom: 4em;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 10%;
+    padding-bottom: 4%;
     border-radius: 10px;
     background-color: #cbe1ff
 }

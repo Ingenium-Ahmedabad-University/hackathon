@@ -1,4 +1,18 @@
 
+//counter fuck jquery
+finaldate = new Date('14 March 2020');
+setInterval(()=>{
+let timeleft = finaldate - new Date ();
+d = document.getElementById('days');
+h = document.getElementById('hours');
+m = document.getElementById('mins');
+s = document.getElementById('secs');
+d.innerHTML = Math.floor(timeleft/(1000*60*60*24));
+h.innerHTML = Math.floor((timeleft/(1000*60*60))%60);
+m.innerHTML = Math.floor((timeleft/(1000*60))%60);
+s.innerHTML = Math.floor((timeleft/(1000))%60);
+},1000);
+
 // timeline 
 document.getElementById('14th').addEventListener('click',() =>{
     document.getElementById('14th').classList.remove('current-day');
@@ -30,31 +44,11 @@ for (let link of ll) {
     document.getElementById('nav-list').classList.add('nav-hide');
     })
 }
-$('a[href*=\\#]:not([href=\\#])').on('click',()=>{
-    let target = $(this.hash);
-    if (target.length){
-        $('html,body').animate({
-            scrollTop:target.offset().top
-        },1000);
-        return false;
-    }
-})
-
 //faq
 
-buttons = $('.add')
+buttons = document.getElementsByClassName('.add')
 for (let b of buttons){
     b.addEventListener('click',(e)=>{
         b.nextElementSibling.classList.toggle('active');
     })
-}
-
-//counter
-if ($('.countdown').length > 0) {
-    $(".countdown").jCounter({
-        date: '14 March 2020 000000',
-        fallback: function () {
-            console.log("count finished!")
-        }
-    });
 }
