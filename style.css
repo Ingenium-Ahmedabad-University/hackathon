@@ -258,14 +258,15 @@ a {
     transition: background-color 250ms ease-in-out, transform 150ms ease;
     -webkit-appearance: none;
     -moz-appearance: none;
-    background-color: var(--btn-col);
-    color: whitesmoke
-}
-
-.dir-btn:hover {
-    text-decoration: none;
     background-color: transparent;
     color: var(--btn-col);
+    }
+
+.dir-btn:hover {
+    background-color: var(--btn-col);
+    color: whitesmoke;
+
+    text-decoration: none;
     transition: all cubic-bezier(0.165, 0.84, 0.44, 1) .5s
 }
 
@@ -739,24 +740,25 @@ title {
     transition: background-color 250ms ease-in-out, transform 150ms ease;
     -webkit-appearance: none;
     -moz-appearance: none;
-    background-color: var(--btn-col);
-    color: whitesmoke!important
+    background-color: transparent;
+    color: var(--btn-col);
 }
 
 .sponsor-btn:hover {
+
+    background-color: var(--btn-col);
+    color: whitesmoke!important;
     text-decoration: none;
-    background-color: transparent;
-    color: var(--btn-col);
     transition: all cubic-bezier(0.165, 0.84, 0.44, 1) .5s
 }
 
 .sponsor-btn a {
-    color: whitesmoke;
+    color:var(--btn-col);
     text-decoration: none
 }
 
 .sponsor-btn:hover a {
-    color: var(--btn-col);
+    color: whitesmoke!important;
     text-decoration: none
 }
 
