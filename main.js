@@ -46,7 +46,7 @@ for (let link of ll) {
 }
 //faq
 
-buttons = document.getElementsByClassName('.add')
+buttons = document.getElementsByClassName('add')
 for (let b of buttons){
     b.addEventListener('click',(e)=>{
         b.nextElementSibling.classList.toggle('active');
