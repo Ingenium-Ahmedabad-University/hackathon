@@ -962,7 +962,8 @@ title {
     display: flex;
     justify-content: center;
     margin: 1em;
-    min-width: 300px
+    min-width: 300px;
+    max-width: 90vw;
 }
 
 .sponsors-logo .sponsor picture {
@@ -970,7 +971,8 @@ title {
 }
 
 .sponsors-logo .sponsor img {
-    height: 100px
+    height: 100px;
+    max-width:100%;
 }
 
 .sponsor-btn {
