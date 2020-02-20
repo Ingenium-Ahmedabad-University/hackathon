@@ -56,7 +56,7 @@ for (let b of buttons) {
 document.addEventListener('DOMContentLoaded', function () {
     let devfolioOptions = {
         buttonSelector: '#devfolio-apply-now',
-        key: 'ingenious-hackathon',
+        key: 'myhackathonkey',
     }
 
     let script = document.createElement('script');

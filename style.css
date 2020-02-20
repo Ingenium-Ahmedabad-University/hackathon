@@ -12,6 +12,9 @@ File list:
 * timeline.css
 * tracks.css
 *****************************/
+style{
+    display: none !important;
+}
 #devfolio-apply-now {
     -ms-flex-align: center;
     -webkit-box-align: center;
