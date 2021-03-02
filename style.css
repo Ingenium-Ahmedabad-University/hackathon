@@ -646,6 +646,18 @@ footer a:hover {
     cursor: pointer
 }
 
+.nav-icon-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-icon-box img {
+    width: auto;
+    max-width: 24px;
+}
+
 #nav-list {
     z-index: 50;
     width: 100vw;
