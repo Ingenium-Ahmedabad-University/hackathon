@@ -12,22 +12,36 @@ setInterval(() => {
     s.innerHTML = Math.floor((timeleft / 1000) % 60);
 }, 1000);
 
-// // timeline
-// document.getElementById("14th").addEventListener("click", () => {
-//     document.getElementById("14th").classList.remove("current-day");
-//     document.getElementById("15th").classList.add("current-day");
+ // timeline
+ document.getElementById("26th").addEventListener("click", () => {
+     document.getElementById("27th").classList.remove("current-day");
+     document.getElementById("26th").classList.add("current-day");
+     document.getElementById("28th").classList.remove("current-day");
 
-//     document.getElementById("14th list").classList.remove("hidden");
-//     document.getElementById("15th list").classList.add("hidden");
-// });
+     document.getElementById("26th list").classList.remove("hidden");
+     document.getElementById("27th list").classList.add("hidden");
+     document.getElementById("28th list").classList.add("hidden");
+ });
 
-// document.getElementById("15th").addEventListener("click", () => {
-//     document.getElementById("14th").classList.add("current-day");
-//     document.getElementById("15th").classList.remove("current-day");
+ document.getElementById("27th").addEventListener("click", () => {
+     document.getElementById("27th").classList.add("current-day");
+     document.getElementById("26th").classList.remove("current-day");
+     document.getElementById("28th").classList.remove("current-day");
 
-//     document.getElementById("15th list").classList.remove("hidden");
-//     document.getElementById("14th list").classList.add("hidden");
-// });
+     document.getElementById("27th list").classList.remove("hidden");
+     document.getElementById("26th list").classList.add("hidden");
+     document.getElementById("28th list").classList.add("hidden");
+ });
+
+ document.getElementById("28th").addEventListener("click", () => {
+    document.getElementById("28th").classList.add("current-day");
+    document.getElementById("26th").classList.remove("current-day");
+    document.getElementById("27th").classList.remove("current-day");
+
+    document.getElementById("28th list").classList.remove("hidden");
+    document.getElementById("26th list").classList.add("hidden");
+    document.getElementById("27th list").classList.add("hidden");
+});
 
 // navigation
 document.getElementById("clear").addEventListener("click", () => {
