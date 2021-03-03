@@ -1100,8 +1100,15 @@ title {
     color: whitesmoke
 }
 
+
 .timeline .date-links button sup {
     display: inline
+}
+
+@media screen and (max-width: 576px) {
+    .timeline .date-links button, .timeline .date-links button sup {
+        font-size: small;
+    }
 }
 
 .timeline .schedule-list {
@@ -1110,42 +1117,33 @@ title {
 
 .timeline .schedule-list .list-element.left {
     overflow: visible;
-    text-align: right
-}
-
-.timeline .schedule-list .list-element.left::after {
-    position: absolute;
-    top: 0;
-    right: -4px;
-    width: 5px;
-    height: 120%;
-    content: '';
-    background-color: #d4d1d1
+    text-align: right;
+    border-right: 4px solid #d4d1d1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 22px;
+    padding-bottom: 22px;
 }
 
 .timeline .schedule-list .list-element.right {
+    transform: translateX(-4px);
     overflow: visible;
-    text-align: left
+    text-align: left;
+    border-left: 4px solid #d4d1d1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 22px;
+    padding-bottom: 22px;
 }
 
-.timeline .schedule-list .list-element.right:hover::before {
-    background-color: var(--btn-col);
+.timeline .schedule-list .list-element.right:hover {
+    border-color: var(--btn-col);
     transition: all .3s ease-in
 }
 
-.timeline .schedule-list .list-element.left:hover::after {
-    background-color: var(--btn-col);
+.timeline .schedule-list .list-element.left:hover {
+    border-color: var(--btn-col);
     transition: all .3s ease-in
-}
-
-.timeline .schedule-list .list-element.right::before {
-    position: absolute;
-    top: 0;
-    left: -1px;
-    width: 5px;
-    height: 120%;
-    content: '';
-    background-color: #d4d1d1
 }
 
 .timeline .schedule-list .list-element .time {
