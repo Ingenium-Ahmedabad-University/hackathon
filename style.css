@@ -1550,3 +1550,7 @@ title {
     color: var(--bg-about-us);
     font-weight: 600;
 }
+
+#format{
+    border-radius: 15px;
+}
