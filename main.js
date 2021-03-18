@@ -1,5 +1,5 @@
 //counter //fuck jquery
-finaldate = new Date("26 March 2021");
+finaldate = new Date("26 March 2021 17:00:00");
 setInterval(() => {
     let timeleft = finaldate - new Date();
     d = document.getElementById("days");
@@ -7,9 +7,9 @@ setInterval(() => {
     m = document.getElementById("mins");
     s = document.getElementById("secs");
     d.innerHTML = Math.floor(timeleft / (1000 * 60 * 60 * 24));
-    h.innerHTML = Math.floor((timeleft / (1000 * 60 * 60)) % 60);
-    m.innerHTML = Math.floor((timeleft / (1000 * 60)) % 60);
-    s.innerHTML = Math.floor((timeleft / 1000) % 60);
+    h.innerHTML = Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    m.innerHTML = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
+    s.innerHTML = Math.floor((timeleft % (1000 * 60)) / 1000);
 }, 1000);
 
  // timeline
