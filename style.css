@@ -1554,3 +1554,15 @@ title {
 #format{
     border-radius: 15px;
 }
+
+.perks{
+    font-size:25px;
+    color: red;
+    
+}
+
+.participant-perks{
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 550;
+}
