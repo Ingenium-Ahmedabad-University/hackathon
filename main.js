@@ -1,5 +1,5 @@
 //counter //fuck jquery
-finaldate = new Date("26 March 2021 17:00:00");
+finaldate = new Date("26 March 2022 08:00:00");
 setInterval(() => {
     let timeleft = finaldate - new Date();
     d = document.getElementById("days");
@@ -12,28 +12,28 @@ setInterval(() => {
     s.innerHTML = Math.floor((timeleft % (1000 * 60)) / 1000);
 }, 1000);
 
- // timeline
- document.getElementById("26th").addEventListener("click", () => {
-     document.getElementById("27th").classList.remove("current-day");
-     document.getElementById("26th").classList.add("current-day");
-     document.getElementById("28th").classList.remove("current-day");
+// timeline
+document.getElementById("26th").addEventListener("click", () => {
+    document.getElementById("27th").classList.remove("current-day");
+    document.getElementById("26th").classList.add("current-day");
+    document.getElementById("28th").classList.remove("current-day");
 
-     document.getElementById("26th list").classList.remove("hidden");
-     document.getElementById("27th list").classList.add("hidden");
-     document.getElementById("28th list").classList.add("hidden");
- });
+    document.getElementById("26th list").classList.remove("hidden");
+    document.getElementById("27th list").classList.add("hidden");
+    document.getElementById("28th list").classList.add("hidden");
+});
 
- document.getElementById("27th").addEventListener("click", () => {
-     document.getElementById("27th").classList.add("current-day");
-     document.getElementById("26th").classList.remove("current-day");
-     document.getElementById("28th").classList.remove("current-day");
+document.getElementById("27th").addEventListener("click", () => {
+    document.getElementById("27th").classList.add("current-day");
+    document.getElementById("26th").classList.remove("current-day");
+    document.getElementById("28th").classList.remove("current-day");
 
-     document.getElementById("27th list").classList.remove("hidden");
-     document.getElementById("26th list").classList.add("hidden");
-     document.getElementById("28th list").classList.add("hidden");
- });
+    document.getElementById("27th list").classList.remove("hidden");
+    document.getElementById("26th list").classList.add("hidden");
+    document.getElementById("28th list").classList.add("hidden");
+});
 
- document.getElementById("28th").addEventListener("click", () => {
+document.getElementById("28th").addEventListener("click", () => {
     document.getElementById("28th").classList.add("current-day");
     document.getElementById("26th").classList.remove("current-day");
     document.getElementById("27th").classList.remove("current-day");
