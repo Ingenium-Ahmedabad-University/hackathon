@@ -16,31 +16,17 @@ setInterval(() => {
 document.getElementById("26th").addEventListener("click", () => {
     document.getElementById("27th").classList.remove("current-day");
     document.getElementById("26th").classList.add("current-day");
-    document.getElementById("28th").classList.remove("current-day");
 
     document.getElementById("26th list").classList.remove("hidden");
     document.getElementById("27th list").classList.add("hidden");
-    document.getElementById("28th list").classList.add("hidden");
 });
 
 document.getElementById("27th").addEventListener("click", () => {
     document.getElementById("27th").classList.add("current-day");
     document.getElementById("26th").classList.remove("current-day");
-    document.getElementById("28th").classList.remove("current-day");
 
     document.getElementById("27th list").classList.remove("hidden");
     document.getElementById("26th list").classList.add("hidden");
-    document.getElementById("28th list").classList.add("hidden");
-});
-
-document.getElementById("28th").addEventListener("click", () => {
-    document.getElementById("28th").classList.add("current-day");
-    document.getElementById("26th").classList.remove("current-day");
-    document.getElementById("27th").classList.remove("current-day");
-
-    document.getElementById("28th list").classList.remove("hidden");
-    document.getElementById("26th list").classList.add("hidden");
-    document.getElementById("27th list").classList.add("hidden");
 });
 
 // navigation
