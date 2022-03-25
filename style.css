@@ -1570,3 +1570,7 @@ title {
 .amount-1{
     color: red;
 }
+
+.tracksPrizes  li {
+    list-style-type: disc;
+}
