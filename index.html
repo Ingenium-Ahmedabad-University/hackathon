@@ -1,128 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157470849-1"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-157470849-1"
+    ></script>
     <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
-    <script class="gtag" style="display: none;">
-        window.dataLayer = window.dataLayer || [];
+    <script class="gtag" style="display: none">
+      window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'UA-157470849-1');
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-157470849-1");
     </script>
 
     <title>Ingenious Hackathon</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description"
-        content="Ingenious Hackathon is a 36-hour intensive coding competition. The problems are
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="Description"
+      content="Ingenious Hackathon is a 36-hour intensive coding competition. The problems are
     of a wide range and designed while keeping in mind an industry-oriented approach, with support from many
-    partner companies. Organized at School of Engineering and Applied Science, Ahmedabad University as a part of its Technological festival Ingenium">
+    partner companies. Organized at School of Engineering and Applied Science, Ahmedabad University as a part of its Technological festival Ingenium"
+    />
 
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./bootstrap-grid.css">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./bootstrap-grid.css" />
 
-    <link href="https://fonts.googleapis.com/css?family=Bowlby+One|Montserrat&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Bowlby+One|Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-
-</head>
-
-<body>
+  <body>
     <nav>
-        <button class="menu" aria-label="Navigation Button"><img class="material-icons" id="menu-icon"
-                src="./images/apps-24px.svg" alt='nav'>
-        </button>
-        <div class="nav-hide" id="nav-list">
-            <div class="nav-icon-box">
-                <img class="material-icons" id="clear" src="./images/clear-24px.svg" alt='close'>
-            </div>
-            <li><a class="link" href="#about">About Us</a></li>
-            <li><a class="link" href="#tracks">Tracks</a></li>
-            <li><a class="link" href="#schedule">Schedule</a></li>
-            <li><a class="link" href="#sponsor">Sponsors</a></li>
-            <li><a class="link" href="#faq">FAQs</a></li>
-            <li><a href="#reach-us" class="link">Reach Us</a></li>
-            <li><a class="link" href="#contact-us">Contact Us</a></li>
-
+      <button class="menu" aria-label="Navigation Button">
+        <img
+          class="material-icons"
+          id="menu-icon"
+          src="./images/apps-24px.svg"
+          alt="nav"
+        />
+      </button>
+      <div class="nav-hide" id="nav-list">
+        <div class="nav-icon-box">
+          <img
+            class="material-icons"
+            id="clear"
+            src="./images/clear-24px.svg"
+            alt="close"
+          />
         </div>
+        <li><a class="link" href="#about">About Us</a></li>
+        <li><a class="link" href="#tracks">Tracks</a></li>
+        <li><a class="link" href="#schedule">Schedule</a></li>
+        <li><a class="link" href="#sponsor">Sponsors</a></li>
+        <li><a class="link" href="#faq">FAQs</a></li>
+        <li><a href="#reach-us" class="link">Reach Us</a></li>
+        <li><a class="link" href="#contact-us">Contact Us</a></li>
+      </div>
     </nav>
     <section class="landing-page">
-        <div class="start">
-            <p class="date-item">
-                <span class="date">28<span class="th">th</span>-29<span class="th">th</span></span><br><span> January
-                    2023</span>
-            </p>
-            <h2 class="banner-title">
-                Ingenious <br> Hackathon
-            </h2>
-            <div class="banner-info">
-                <span>School of Engineering and Applied Science,<br /> Ahmedabad University</span>
-            </div>
+      <div class="start">
+        <p class="date-item">
+          <span class="date"
+            >28<span class="th">th</span>-29<span class="th">th</span></span
+          ><br /><span> January 2023</span>
+        </p>
+        <h2 class="banner-title">
+          Ingenious <br />
+          Hackathon
+        </h2>
+        <div class="banner-info">
+          <span
+            >School of Engineering and Applied Science,<br />
+            Ahmedabad University</span
+          >
+        </div>
 
-            <div class="countdown">
-                <div class="counter-item">
-                    <span class="days time" id="days">00</span>
-                    <div class="smalltext">Days</div>
-
-                </div>
-                <div class="counter-item">
-                    <span class="hours time" id="hours">00</span>
-                    <div class="smalltext">Hours</div>
-
-                </div>
-                <div class="counter-item">
-                    <span class="minutes time" id="mins">00</span>
-                    <div class="smalltext">Minutes</div>
-                </div>
-                <div class="counter-item">
-                    <span class="seconds time" id="secs">00</span>
-                    <div class="smalltext">Seconds</div>
-                </div>
-            </div>
-            <!-- <div class="apply-button" data-hackathon-slug="ingenious-hackathon-3" data-button-theme="light"
+        <div class="countdown">
+          <div class="counter-item">
+            <span class="days time" id="days">00</span>
+            <div class="smalltext">Days</div>
+          </div>
+          <div class="counter-item">
+            <span class="hours time" id="hours">00</span>
+            <div class="smalltext">Hours</div>
+          </div>
+          <div class="counter-item">
+            <span class="minutes time" id="mins">00</span>
+            <div class="smalltext">Minutes</div>
+          </div>
+          <div class="counter-item">
+            <span class="seconds time" id="secs">00</span>
+            <div class="smalltext">Seconds</div>
+          </div>
+        </div>
+        <!-- <div class="apply-button" data-hackathon-slug="ingenious-hackathon-3" data-button-theme="light"
                 style="height: 44px; width: 312px"></div> -->
 
-            <!-- <button id="devfolio-apply-now"><svg class="logo" xmlns="http://www.w3.org/2000/svg" fill="#fff"viewBox="0 0 115.46 123.46" style="height:24px;width:24px;margin-right:8px"><path d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z" /><path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z"/></svg>
+        <!-- <button id="devfolio-apply-now"><svg class="logo" xmlns="http://www.w3.org/2000/svg" fill="#fff"viewBox="0 0 115.46 123.46" style="height:24px;width:24px;margin-right:8px"><path d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z" /><path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z"/></svg>
         Apply with Devfolio</button> -->
-        </div>
-        <img src="./images/animated-svg/landing-page-g animated.svg" class="lp-g" alt="">
+      </div>
+      <img
+        src="./images/animated-svg/landing-page-g animated.svg"
+        class="lp-g"
+        alt=""
+      />
     </section>
     <section class="prizes">
-        <div class="title">Total Prizes</div>
-        <div class="content">
-            <div class="prize-card">
-                <div class="amount"> &#8377;12,000/-</div>
-                <div class="amount"> + </div>
-                <div class="perks"> Perks Worth &#8377;25,000/-</div>
-                <br>
-                <div>1st Place</div>
-            </div>
-            <div class="prize-card">
-                <div class="amount"> &#8377;10,000/-</div>
-                <div class="amount"> + </div>
-                <div class="perks"> Perks Worth &#8377;25,000/-</div>
-                <br>
-                <div>2nd Place</div>
-            </div>
-            <div class="prize-card">
-                <div class="amount"> &#8377;8,000/-</div>
-                <div class="amount"> + </div>
-                <div class="perks"> Perks Worth &#8377;25,000/-</div>
-                <br>
-                <div>3rd Place</div>
-            </div>
+      <div class="title">Total Prizes</div>
+      <div class="content">
+        <div class="prize-card">
+          <div class="amount">&#8377;12,000/-</div>
+          <div class="amount">+</div>
+          <div class="perks">Perks Worth &#8377;25,000/-</div>
+          <br />
+          <div>1st Place</div>
         </div>
-        <!-- <div class="participant-perks">Perks Worth &#8377;21,000/- For All Participants</div> -->
+        <div class="prize-card">
+          <div class="amount">&#8377;10,000/-</div>
+          <div class="amount">+</div>
+          <div class="perks">Perks Worth &#8377;25,000/-</div>
+          <br />
+          <div>2nd Place</div>
+        </div>
+        <div class="prize-card">
+          <div class="amount">&#8377;8,000/-</div>
+          <div class="amount">+</div>
+          <div class="perks">Perks Worth &#8377;25,000/-</div>
+          <br />
+          <div>3rd Place</div>
+        </div>
+      </div>
+      <!-- <div class="participant-perks">Perks Worth &#8377;21,000/- For All Participants</div> -->
     </section>
     <section class="prizes">
-
-        <div class="content">
-            <!-- <div class="prize-card">
+      <div class="content">
+        <!-- <div class="prize-card">
                 <div class="amount-1"> &#8377;15,000/-</div>
                 <br>
                 <div>Portis Prize</div>
@@ -132,47 +152,51 @@
                 <br>
                 <div>Tezos Prize</div>
             </div> -->
-            <div class="prize-card">
-                <div class="amount-1"> &#8377;2,000/-</div>
-                <br>
-                <div>Best Beginner Hack</div>
-            </div>
-            <div class="prize-card">
-                <div class="amount-1"> &#8377;2,000/-</div>
-                <br>
-                <div>Most Prettiest Hack</div>
-            </div>
-            <!-- <div class="prize-card">
+        <div class="prize-card">
+          <div class="amount-1">&#8377;2,000/-</div>
+          <br />
+          <div>Best Beginner Hack</div>
+        </div>
+        <div class="prize-card">
+          <div class="amount-1">&#8377;2,000/-</div>
+          <br />
+          <div>Most Prettiest Hack</div>
+        </div>
+        <!-- <div class="prize-card">
                 <div class="amount-1"> &#8377;1,500/-</div>
                 <br>
                 <div>Best Web3 Hack</div>
             </div> -->
 
-            <!-- <div class="participant-perks">Perks Worth &#8377;21,000/- For All Participants</div> -->
+        <!-- <div class="participant-perks">Perks Worth &#8377;21,000/- For All Participants</div> -->
+      </div>
     </section>
     <section class="about-us" id="about">
-        <div class="content">
-            <div class="title">
-                About Us
-            </div>
-            <div class="text">
-                The Ingenious Hackathon is a 36-hour intensive coding competition. The problems are
-                of a wide range and designed while keeping in mind an industry-oriented approach, with support from many
-                partner companies.<br /><br /> This event has been, in the past, one of the most sought after and
-                prestigious events of the festival with a large footfall from across the state. Every team works on the
-                selected problem and is evaluated for their progress, innovation,
-                and the practicality of their work, on regular intervals.
-            </div>
-
+      <div class="content">
+        <div class="title">About Us</div>
+        <div class="text">
+          The Ingenious Hackathon is a 36-hour intensive coding competition. The
+          problems are of a wide range and designed while keeping in mind an
+          industry-oriented approach, with support from many partner
+          companies.<br /><br />
+          This event has been, in the past, one of the most sought after and
+          prestigious events of the festival with a large footfall from across
+          the state. Every team works on the selected problem and is evaluated
+          for their progress, innovation, and the practicality of their work, on
+          regular intervals.
         </div>
+      </div>
 
-        <img src="./images/animated-svg/about-us-g animated.svg" alt="" class="about-us-g">
-
+      <img
+        src="./images/animated-svg/about-us-g animated.svg"
+        alt=""
+        class="about-us-g"
+      />
     </section>
 
     <section class="tracks" id="tracks">
-        <div class="content">
-            <!-- <div class="title">More Perks</div>
+      <div class="content">
+        <!-- <div class="title">More Perks</div>
             <div class="cards">
                 <div class="card">
                     <h3 class="title">For All Participants</h3>
@@ -184,65 +208,64 @@
                 </div>
             </div>
             </div> -->
-            <div class="title">Tracks</div>
-            <div class="cards">
-                <div class="card">
-                    <h3 class="title">Open Source</h3>
-                    <p class="text">Track Prize - &#8377;2500
-                    </p>
-                    <p class="text">Theme Track - Build something that can later be used by anyone around the world.
-                        There’s a whole lot of innovation possible here but you’ll have to be good and give it to the
-                        world.
-                    </p>
-                </div>
-                <div class="card">
-                    <h3 class="title">Business </h3>
-                    <p class="text">Track Prize - &#8377;2500
-                    </p>
-                    <p class="text">
-                        Build an innovation which helps small businesses to scale or help them to reduce burden. For
-                        example: innovation in supply chain, money transfer, invoice generation, etc.
-                    </p>
-                </div>
-                <div class="card">
-                    <h3 class="title">Health Care</h3>
-                    <p class="text">Track Prize - &#8377;2500
-                    </p>
-                    <p class="text">Create innovative solutions that address various health-related issues and
-                        challenges such as the COVID19 pandemic, mental health, obesity, cardiovascular diseases and
-                        many more.
-
-                    </p>
-                </div>
-                <div class="card">
-                    <h3 class="title">Safety Net</h3>
-                    <p class="text">Track Prize - &#8377;2500
-                    </p>
-                    <p class="text">Build something that makes us safer. This can range from saving humanity from aliens
-                        to saving yourself from your neighbour’s kid(who has newly learnt pen-testing) to making your
-                        area safer from the creeps that make it unsafe.
-
-                    </p>
-                </div>
-                <div class="card">
-                    <h3 class="title">FinTech</h3>
-                    <p class="text">Track Prize - &#8377;3000
-                    </p>
-                    <p class="text"> Solve intriguing challenges faced by the Fin-tech industry by automating, securing
-                        and enhancing the delivery and operation of financial technology.
-
-                    </p>
-                </div>
-                <div class="card">
-                    <h3 class="title">Web3</h3>
-                    <p class="text">Track Prize - &#8377;3000
-                    </p>
-                    <p class="text"> Build something on Web3. Gather a group of technology stacks, 
-                        including blockchain layer, protocol layer and dApps. Build innovative things capable of Startup.
-
-                    </p>
-                </div>
-                <!--{% comment %} <div class="card">
+        <div class="title">Tracks</div>
+        <div class="cards">
+          <div class="card">
+            <h3 class="title">Open Source</h3>
+            <p class="text">Track Prize - &#8377;2500</p>
+            <p class="text">
+              Theme Track - Build something that can later be used by anyone
+              around the world. There’s a whole lot of innovation possible here
+              but you’ll have to be good and give it to the world.
+            </p>
+          </div>
+          <div class="card">
+            <h3 class="title">Business</h3>
+            <p class="text">Track Prize - &#8377;2500</p>
+            <p class="text">
+              Build an innovation which helps small businesses to scale or help
+              them to reduce burden. For example: innovation in supply chain,
+              money transfer, invoice generation, etc.
+            </p>
+          </div>
+          <div class="card">
+            <h3 class="title">Health Care</h3>
+            <p class="text">Track Prize - &#8377;2500</p>
+            <p class="text">
+              Create innovative solutions that address various health-related
+              issues and challenges such as the COVID19 pandemic, mental health,
+              obesity, cardiovascular diseases and many more.
+            </p>
+          </div>
+          <div class="card">
+            <h3 class="title">Safety Net</h3>
+            <p class="text">Track Prize - &#8377;2500</p>
+            <p class="text">
+              Build something that makes us safer. This can range from saving
+              humanity from aliens to saving yourself from your neighbour’s
+              kid(who has newly learnt pen-testing) to making your area safer
+              from the creeps that make it unsafe.
+            </p>
+          </div>
+          <div class="card">
+            <h3 class="title">FinTech</h3>
+            <p class="text">Track Prize - &#8377;3000</p>
+            <p class="text">
+              Solve intriguing challenges faced by the Fin-tech industry by
+              automating, securing and enhancing the delivery and operation of
+              financial technology.
+            </p>
+          </div>
+          <div class="card">
+            <h3 class="title">Web3</h3>
+            <p class="text">Track Prize - &#8377;3000</p>
+            <p class="text">
+              Build something on Web3. Gather a group of technology stacks,
+              including blockchain layer, protocol layer and dApps. Build
+              innovative things capable of Startup.
+            </p>
+          </div>
+          <!--{% comment %} <div class="card">
                     <h3 class="title">
                         Agro Tech</h3>
                     <p class="text">
@@ -258,26 +281,26 @@
                     <p class="text"> Financial technology, often shortened to fintech, is the technology and innovation
                         that aims to compete with traditional financial methods.</p>
                 </div> {% endcomment %} -->
-                <!--div class="card">
+          <!--div class="card">
                     <h3 class="title">Blockchain</h3>
                     <p class="text">A blockchain, originally block chain, is a growing list of records, called blocks,
                         that are
                         linked using cryptography.</p>
                 </div-->
 
-                <!--div class="card">
+          <!--div class="card">
                     <h3 class="title">More Tracks TBA</h3>
                     <p class="text">We will be annoucing more tracks soon! Stay Tuned!</p>
                 </div-->
-                <!--  {% comment %} <div class="card">
+          <!--  {% comment %} <div class="card">
                     <h3 class="title">Mobility</h3>
                     <p class="text">Mobility model, model of the motion of users of mobile phones and wireless ad hoc
                         networks.</p>
                 </div> {% endcomment %}
                 -->
-            </div>
+        </div>
 
-            <!-- <div class="title">Other Tracks</div>
+        <!-- <div class="title">Other Tracks</div>
             <div class="cards">
                 <div class="card">
                     <h3 class="title">Polygon</h3>
@@ -334,15 +357,24 @@
                     </ul>
                     </p>
                 </div>
-            </div>
-        </div> -->
-        <div class="tracks-g">
-            <img class="tracksgl" src="./images/animated-svg/tracklowl animated.svg" alt="" srcset="">
-            <img class="tracksgr" src="./images/animated-svg/tracklowr animated.svg" alt="" srcset="">
-        </div>
+            </div> -->
+      </div>
+      <div class="tracks-g">
+        <img
+          class="tracksgl"
+          src="./images/animated-svg/tracklowl animated.svg"
+          alt=""
+          srcset=""
+        />
+        <img
+          class="tracksgr"
+          src="./images/animated-svg/tracklowr animated.svg"
+          alt=""
+          srcset=""
+        />
+      </div>
     </section>
 
-    
     <!-- <section class="timeline" id="schedule">
         <div class="content">
             <div class="title">Schedule</div>
@@ -495,10 +527,9 @@
         </div>
     </section> -->
 
-
     <!-- Section of Sponsors -->
     <section class="sponsor" id="sponsor">
-        <!-- <div class="content">
+      <!-- <div class="content">
             <div class="title">Sponsors</div>
             <div class="sub-title">Platinum Sponsors</div>
             <div class="sponsors-logo  offset-1 col-10">
@@ -518,252 +549,347 @@
             </div>
 
         </div> -->
-        <div class="content">
-            <!-- <div class="sub-title">Patrons</div> -->
-            <!-- <div class="sponsors-logo  offset-1 col-10"> -->
-                
-                
-            <!-- </div> -->
-            <div class="brochure-strip">
-                <img src="./images/animated-svg/SponsorsCoffe animated.svg" alt="" class="coffee">
-                <div class="b-strip-text">
-                    <span>Interested in working with us ?</span>
-                    <div class="sponsor-btn ">
-                        <a href="#contact-us" class="btn">Contact Us</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+      <div class="content">
+        <!-- <div class="sub-title">Patrons</div> -->
+        <!-- <div class="sponsors-logo  offset-1 col-10"> -->
 
-        <div class="content">
-            <div class="title">Previous Sponsors</div>
-            <div class="sponsors-logo  offset-1 col-10">
-                <div class="sponsor">
-                    <a href="https://www.interviewcake.com/" target="_blank">
-                        <picture><img src="images/sponsors/cake_logo_blue_gray.svg" alt="sponsor3"></picture>
-                    </a>
-                </div>
-                <div class="sponsor">
-                    <a href="https://www.taskade.com/" target="_blank">
-                        <picture><img src="images/sponsors/taskade-logo-vector.svg" alt="sponsor3"></picture>
-                    </a>
-                </div>
-                <div class="sponsor">
-                    <a href="https://artofproblemsolving.com/" target="_blank">
-                        <picture><img src="images/sponsors/AoPS_Main_Logo.png" alt="sponsor3"></picture>
-                    </a>
-                </div>
-                <div class="sponsor">
-                    <a href="https://www.echoar.xyz/" target="_blank">
-                        <picture><img src="images/sponsors/echoAR.png" alt="sponsor2"></picture>
-                    </a>
-                </div>
-                <div class="sponsor">
-                    <a href="https://hackclub.com/" target="_blank">
-                        <picture><img src="images/sponsors/flag-standalone.svg" alt="sponsor3"></picture>
-                    </a>
-                </div>
-                <div class="sponsor">
-                    <a href="https://gen.xyz/" target="_blank">
-                        <picture><img src="images/sponsors/c-sponsor3.png" alt="sponsor3"></picture>
-                    </a>
-                </div>
-                <div class="sponsor">
-                    <a href="https://filecoin.io/" target="_blank">
-                        <picture><img src="images/sponsors/Filecoin Coloured White Text.png" alt="sponsor2"></picture>
-                    </a>
-                </div>
-                <div class="sponsor">
-                    <a href="https://celo.org/" target="_blank">
-                        <picture><img src="images/sponsors/Celo Logo Color.png" alt="sponsor2"></picture>
-                    </a>
-                </div>
-                <div class="sponsor">
-                    <a href="https://tezos.com" target="_blank">
-                        <picture><img src="images/sponsors/Tezos.svg" alt="sponsor2"></picture>
-                    </a>
-                </div>
-                <div class="sponsor">
-                    <a href="https://polygon.technology/" target="_blank">
-                        <picture><img src="images/sponsors/Polygon_Logo-Colored.svg" alt="sponsor2"></picture>
-                    </a>
-                </div>
-                <div class="sponsor">
-                    <a href="https://devfolio.co" target="_blank">
-                        <picture><img src="images/sponsors/Devfolio.svg" alt="sponsor3"></picture>
-                    </a>
-                </div>
-                <div class="sponsor">
-                    <a href="https://www.wolfram.com/language/" target="_blank">
-                        <picture><img src="images/sponsors/c-sponsor2.svg" alt="sponsor2"></picture>
-                    </a>
-                </div>
-                <div class="sponsor">
-                    <a href="https://1password.com/" target="_blank">
-                        <picture><img src="images/sponsors/1password.svg" alt="sponsor2"></picture>
-                    </a>
-                </div>
-                <div class="sponsor">
-                    <a href="https://balsamiq.com/" target="_blank">
-                        <picture><img src="images/sponsors/balsamiq.png" alt="sponsor2"></picture>
-                    </a>
-                </div>
-                <div class="sponsor">
-                    <a href="https://www.stickermule.com/en-in/press" target="_blank">
-                        <picture><img src="images/sponsors/sticker-mule-logo.png" alt="sponsor2"></picture>
-                    </a>
-                </div>
+        <!-- </div> -->
+        <div class="brochure-strip">
+          <img
+            src="./images/animated-svg/SponsorsCoffe animated.svg"
+            alt=""
+            class="coffee"
+          />
+          <div class="b-strip-text">
+            <span>Interested in working with us ?</span>
+            <div class="sponsor-btn">
+              <a href="#contact-us" class="btn">Contact Us</a>
             </div>
+          </div>
         </div>
+      </div>
+
+      <div class="content">
+        <div class="title">Previous Sponsors</div>
+        <div class="sponsors-logo offset-1 col-10">
+          <div class="sponsor">
+            <a href="https://www.interviewcake.com/" target="_blank">
+              <picture
+                ><img
+                  src="images/sponsors/cake_logo_blue_gray.svg"
+                  alt="sponsor3"
+              /></picture>
+            </a>
+          </div>
+          <div class="sponsor">
+            <a href="https://www.taskade.com/" target="_blank">
+              <picture
+                ><img
+                  src="images/sponsors/taskade-logo-vector.svg"
+                  alt="sponsor3"
+              /></picture>
+            </a>
+          </div>
+          <div class="sponsor">
+            <a href="https://artofproblemsolving.com/" target="_blank">
+              <picture
+                ><img src="images/sponsors/AoPS_Main_Logo.png" alt="sponsor3"
+              /></picture>
+            </a>
+          </div>
+          <div class="sponsor">
+            <a href="https://www.echoar.xyz/" target="_blank">
+              <picture
+                ><img src="images/sponsors/echoAR.png" alt="sponsor2"
+              /></picture>
+            </a>
+          </div>
+          <div class="sponsor">
+            <a href="https://hackclub.com/" target="_blank">
+              <picture
+                ><img src="images/sponsors/flag-standalone.svg" alt="sponsor3"
+              /></picture>
+            </a>
+          </div>
+          <div class="sponsor">
+            <a href="https://gen.xyz/" target="_blank">
+              <picture
+                ><img src="images/sponsors/c-sponsor3.png" alt="sponsor3"
+              /></picture>
+            </a>
+          </div>
+          <div class="sponsor">
+            <a href="https://filecoin.io/" target="_blank">
+              <picture
+                ><img
+                  src="images/sponsors/Filecoin Coloured White Text.png"
+                  alt="sponsor2"
+              /></picture>
+            </a>
+          </div>
+          <div class="sponsor">
+            <a href="https://celo.org/" target="_blank">
+              <picture
+                ><img src="images/sponsors/Celo Logo Color.png" alt="sponsor2"
+              /></picture>
+            </a>
+          </div>
+          <div class="sponsor">
+            <a href="https://tezos.com" target="_blank">
+              <picture
+                ><img src="images/sponsors/Tezos.svg" alt="sponsor2"
+              /></picture>
+            </a>
+          </div>
+          <div class="sponsor">
+            <a href="https://polygon.technology/" target="_blank">
+              <picture
+                ><img
+                  src="images/sponsors/Polygon_Logo-Colored.svg"
+                  alt="sponsor2"
+              /></picture>
+            </a>
+          </div>
+          <div class="sponsor">
+            <a href="https://devfolio.co" target="_blank">
+              <picture
+                ><img src="images/sponsors/Devfolio.svg" alt="sponsor3"
+              /></picture>
+            </a>
+          </div>
+          <div class="sponsor">
+            <a href="https://www.wolfram.com/language/" target="_blank">
+              <picture
+                ><img src="images/sponsors/c-sponsor2.svg" alt="sponsor2"
+              /></picture>
+            </a>
+          </div>
+          <div class="sponsor">
+            <a href="https://1password.com/" target="_blank">
+              <picture
+                ><img src="images/sponsors/1password.svg" alt="sponsor2"
+              /></picture>
+            </a>
+          </div>
+          <div class="sponsor">
+            <a href="https://balsamiq.com/" target="_blank">
+              <picture
+                ><img src="images/sponsors/balsamiq.png" alt="sponsor2"
+              /></picture>
+            </a>
+          </div>
+          <div class="sponsor">
+            <a href="https://www.stickermule.com/en-in/press" target="_blank">
+              <picture
+                ><img
+                  src="images/sponsors/sticker-mule-logo.png"
+                  alt="sponsor2"
+              /></picture>
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="faq" id="faq">
+      <div class="title">FAQ</div>
+      <div class="content">
+        <img
+          src="./images/animated-svg/faq animated.svg"
+          alt=""
+          class="faq-g"
+        />
+        <div class="qas">
+          <div class="qa col-10">
+            <button class="add" aria-label="show more">
+              <span class="q">What is Ingenious Hackathon? </span
+              ><span style="align-self: flex-end">+</span>
+            </button>
+            <p class="a">
+              Ingenious Hackathon is an initiative by some nerdy noobs at School
+              of Engineering and Applied Science, Ahmedabad University. We want
+              you in the limelight, while we manage the light and the
+              technicalities. We want you to come and build & code. We provide
+              everything else (Not transportation).
+            </p>
+          </div>
+          <div class="qa col-10">
+            <button class="add" aria-label="show more">
+              <span class="q">Who can participate?</span
+              ><span style="align-self: flex-end">+</span>
+            </button>
+            <p class="a">
+              The maximum age of the participant must be 25. He must not
+              necessarily be a college student.
+            </p>
+          </div>
+          <div class="qa col-10">
+            <button class="add">
+              <span class="q">What are the dates?</span><span>+</span>
+            </button>
+            <p class="a">28th-29th March, 2023</p>
+          </div>
 
-        <div class="title">FAQ</div>
-        <div class="content">
-            <img src="./images/animated-svg/faq animated.svg" alt="" class="faq-g">
-            <div class="qas">
-                <div class="qa  col-10">
-                    <button class="add" aria-label="show more"><span class="q">What is Ingenious Hackathon?
-                        </span><span style="align-self: flex-end;">+</span>
-                    </button>
-                    <p class="a  ">Ingenious Hackathon is an initiative by some nerdy noobs at School of Engineering and
-                        Applied Science, Ahmedabad University. We want you in the limelight, while we manage the light
-                        and the technicalities. We want you to come and build
-                        & code. We provide everything else (Not transportation).</p>
+          <div class="qa col-10">
+            <button class="add" aria-label="show more">
+              <span class="q">What is the team size?</span><span>+</span>
+            </button>
+            <p class="a">3-5 people. Lone-wolves strictly not allowed.</p>
+          </div>
 
-
-
-                </div>
-                <div class="qa  col-10">
-                    <button class="add" aria-label="show more">
-
-                        <span class="q">Who can participate?</span><span style="align-self: flex-end;">+</span></button>
-                    <p class="a  ">The maximum age of the participant must be 25. He must not necessarily be a college
-                        student.
-                    </p>
-
-                </div>
-                <div class="qa  col-10 ">
-                    <button class="add"> <span class="q">What are the dates?</span><span>+</span>
-                    </button>
-                    <p class="a  ">28th-29th March, 2023</p>
-
-                </div>
-
-                <div class="qa  col-10"><button class="add" aria-label="show more"> <span class="q">What is the team
-                            size?</span><span>+</span>
-                    </button>
-                    <p class="a  ">3-5 people. Lone-wolves strictly not allowed.</p>
-
-                </div>
-
-
-                <div class="qa  col-10 ">
-                    <button class="add" aria-label="show more"><span class="q">What should I bring?</span>
-                        <span>+</span>
-                    </button>
-                    <p class="a  ">A valid government issued photo ID and/or your college issued photo ID, laptop,
-                        phone, chargers and your favorite blanket. (we'll be providing mattresses).</p>
-
-                </div>
-                <div class="qa  col-10"><button class="add" aria-label="show more">
-                        <span class="q">What items are prohibited?</span>
-                        <span>+</span>
-                    </button>
-                    <p class="a  ">Drugs, Alcohol or any sort of weapons that can injure or are in any way harmful or
-                        addictive. If you are unsure, please ask us.</p>
-
-                </div>
-                <!-- <div class="qa  col-10 "><button class="add" aria-label="show more">
+          <div class="qa col-10">
+            <button class="add" aria-label="show more">
+              <span class="q">What should I bring?</span>
+              <span>+</span>
+            </button>
+            <p class="a">
+              A valid government issued photo ID and/or your college issued
+              photo ID, laptop, phone, chargers and your favorite blanket.
+              (we'll be providing mattresses).
+            </p>
+          </div>
+          <div class="qa col-10">
+            <button class="add" aria-label="show more">
+              <span class="q">What items are prohibited?</span>
+              <span>+</span>
+            </button>
+            <p class="a">
+              Drugs, Alcohol or any sort of weapons that can injure or are in
+              any way harmful or addictive. If you are unsure, please ask us.
+            </p>
+          </div>
+          <!-- <div class="qa  col-10 "><button class="add" aria-label="show more">
                         <span class="q">How does judging work?</span><span>+</span></button>
 
                     <p class="a  ">The companies will provide their juries who will judge the projects in the respective fields based on the development of the project during the 48 hours as well as a 10-minute presentation after the Ingenious Hackathon time finishes.
                     </p>
 
                 </div> -->
-
-            </div>
         </div>
+      </div>
     </section>
     <section id="reach-us" class="reach-us">
-
-        <div class="title">Reach Us</div>
-        <div class="content">
-            <div class="map-section">
-
-                <div class="mapouter">
-                    <div class="gmap_canvas">
-                        <iframe title="map"
-                            src="https://maps.google.com/maps?q=School%20of%20Engineering%20and%20Applied%20Science%2CAhmedabad&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
-                    </div>
-                </div>
-
-                <div class="venue">
-
-                    <h3> Venue:</h3> <a class="dir-btn" href="https://discord.gg/nnRFG5beVf" target="_blank"
-                        rel="noreferrer noopener">Discord</a> <br />
-
-                    <h4>Organiser Address:</h4> School of Engineering and Applied Science,<br /> Ahmedabad University
-                    Commerce Six Roads,<br /> Navrangpura, Ahmedabad- 380009
-
-                    <a class="dir-btn"
-                        href="https://www.google.com/maps/dir//School+of+Engineering+and+Applied+Science+library,+University+Area,+Ahmedabad,+Gujarat+380009,+India/@23.0372598,72.5521127,18z/data=!4m15!1m6!3m5!1s0x395e849332310a6f:0x30dd8e1eb52ecdb3!2sSchool+of+Engineering+and+Applied+Science+library!8m2!3d23.0375829!4d72.5521224!4m7!1m0!1m5!1m1!1s0x395e849332310a6f:0x30dd8e1eb52ecdb3!2m2!1d72.5521227!2d23.0375829?hl=en-US"
-                        target="_blank" rel="noreferrer noopener">Direction</a>
-                </div>
+      <div class="title">Reach Us</div>
+      <div class="content">
+        <div class="map-section">
+          <div class="mapouter">
+            <div class="gmap_canvas">
+              <iframe
+                title="map"
+                src="https://maps.google.com/maps?q=School%20of%20Engineering%20and%20Applied%20Science%2CAhmedabad&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              ></iframe>
             </div>
+          </div>
 
+          <div class="venue">
+            <h3>Venue:</h3>
+            <a
+              class="dir-btn"
+              href="https://discord.gg/nnRFG5beVf"
+              target="_blank"
+              rel="noreferrer noopener"
+              >Discord</a
+            >
+            <br />
+
+            <h4>Organiser Address:</h4>
+            School of Engineering and Applied Science,<br />
+            Ahmedabad University Commerce Six Roads,<br />
+            Navrangpura, Ahmedabad- 380009
+
+            <a
+              class="dir-btn"
+              href="https://www.google.com/maps/dir//School+of+Engineering+and+Applied+Science+library,+University+Area,+Ahmedabad,+Gujarat+380009,+India/@23.0372598,72.5521127,18z/data=!4m15!1m6!3m5!1s0x395e849332310a6f:0x30dd8e1eb52ecdb3!2sSchool+of+Engineering+and+Applied+Science+library!8m2!3d23.0375829!4d72.5521224!4m7!1m0!1m5!1m1!1s0x395e849332310a6f:0x30dd8e1eb52ecdb3!2m2!1d72.5521227!2d23.0375829?hl=en-US"
+              target="_blank"
+              rel="noreferrer noopener"
+              >Direction</a
+            >
+          </div>
         </div>
+      </div>
     </section>
     <section class="contact-us" id="contact-us">
-        <div class="title">Contact Us</div>
-        <div class="content">
-            <img src="./images/animated-svg/contact animated.svg" alt="" class="contact-g">
+      <div class="title">Contact Us</div>
+      <div class="content">
+        <img
+          src="./images/animated-svg/contact animated.svg"
+          alt=""
+          class="contact-g"
+        />
 
-            <div class="list">
-                <div class="contact-ele">
-                    <img src="https://img.icons8.com/officel/40/000000/whatsapp.png" alt="">
-                    <div class="details"><span class="name">Prasan Singh</span> +91-7220020004
-                    </div>
-                </div>
-                <div class="contact-ele">
-                    <img src="https://img.icons8.com/officel/40/000000/whatsapp.png" alt="">
-                    <div class="details"> <span class="name">Kavan Gondalia</span> +91-8320161492
-                    </div>
-                </div>
+        <div class="list">
+          <div class="contact-ele">
+            <img
+              src="https://img.icons8.com/officel/40/000000/whatsapp.png"
+              alt=""
+            />
+            <div class="details">
+              <span class="name">Prasan Singh</span> +91-7220020004
+            </div>
+          </div>
+          <div class="contact-ele">
+            <img
+              src="https://img.icons8.com/officel/40/000000/whatsapp.png"
+              alt=""
+            />
+            <div class="details">
+              <span class="name">Kavan Gondalia</span> +91-8320161492
+            </div>
+          </div>
 
+          <div class="contact-ele">
+            <img src="./images/instagram-logo.png" class="icon" alt="" />
+            <div class="details">
+              <a
+                href="https://www.instagram.com/tech.ingenium/?hl=en"
+                class="name"
+                style="cursor: pointer"
+                >@tech.ingenium</a
+              >
+            </div>
+          </div>
+          <div class="contact-ele">
+            <img
+              src="https://img.icons8.com/color/48/000000/gmail.png"
+              class="icon"
+              alt=""
+            />
+            <div class="details">
+              <a
+                href="mailto:ingenium@ahduni.edu.in"
+                class="name site"
+                style="cursor: pointer"
+                >ingenium@ahduni.edu.in</a
+              >
+            </div>
+          </div>
 
-                <div class="contact-ele">
-                    <img src="./images/instagram-logo.png" class="icon" alt="">
-                    <div class="details"><a href="https://www.instagram.com/tech.ingenium/?hl=en" class="name"
-                            style="cursor: pointer;">@tech.ingenium</a>
-                    </div>
-                </div>
-                <div class="contact-ele">
-                    <img src="https://img.icons8.com/color/48/000000/gmail.png" class="icon" alt="">
-                    <div class="details"><a href="mailto:ingenium@ahduni.edu.in" class="name site"
-                            style="cursor: pointer;">ingenium@ahduni.edu.in</a>
-                    </div>
-                </div>
-
-                <!-- <div class="contact-ele">
+          <!-- <div class="contact-ele">
                     <img src="https://img.icons8.com/ios-filled/64/000000/link.png" class="icon" alt="">
                     <div class="details">
                         <a class="name site" href="https://techingenium.org/" target="_blank" style="cursor: pointer;"
                             rel="noreferrer noopener">Ingenium Website</a>
                     </div>
                 </div> -->
-            </div>
         </div>
+      </div>
     </section>
     <footer>
-        <span class="us">Developed by<span>
-                <a href="https://github.com/arpitvaghela" target="_blank" rel="noreferrer noopener">Arpitsinh
-                    Vaghela</a> & <a href="https://github.com/Kaushal1011" target="_blank"
-                    rel="noreferrer noopener">Kaushal Patil</a>
+      <span class="us">Developed by</span>
+      <a
+        href="https://github.com/arpitvaghela"
+        target="_blank"
+        rel="noreferrer noopener"
+        >Arpitsinh Vaghela</a
+      >
+      &
+      <a
+        href="https://github.com/Kaushal1011"
+        target="_blank"
+        rel="noreferrer noopener"
+        >Kaushal Patil</a
+      >
     </footer>
     <script src="./main.js"></script>
-
-</body>
-
+  </body>
 </html>

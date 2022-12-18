@@ -1,5 +1,6 @@
 //counter //fuck jquery
 finaldate = new Date("28 January 2023 08:00:00");
+console.log(finaldate);
 setInterval(() => {
     let timeleft = finaldate - new Date();
     d = document.getElementById("days");
